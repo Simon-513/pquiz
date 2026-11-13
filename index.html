@@ -2538,7 +2538,7 @@ function openPlaylists(){
 
 /* ---------- Stapel ---------- */
 
-const norm = s => String(s || '').toLowerCase().normalize('NFD').replace(/[Ì€-Í¯]/g, '').replace(/[^a-z0-9]+/g, '');
+const norm = s => String(s || '').toLowerCase().normalize('NFD').replace(/[\u0300-\u036f]/g, '').replace(/[^a-z0-9]+/g, '');
 
 const cleanTitle = s => String(s || '').replace(/\s[-â€“]\s.*$/, '').replace(/[(\[].*?[)\]]/g, '');
 
@@ -3230,8 +3230,7 @@ function needsInput(task, check){
 
 const stripExtras = s => String(s || '').replace(/\s+[-â€“â€”]\s+.*$/, '').replace(/\s*[(\[][^)\]]*[)\]]/g, '').replace(/\s+(feat|ft|featuring)\.?\s.*$/i, '').trim();
 
-const canon = s => String(s || '').toLowerCase().normalize('NFD').replace(/[Ì€-Í¯]/g, '').replace(/ÃŸ/g, 'ss')
-
+const canon = s => String(s || '').toLowerCase().normalize('NFD').replace(/[\u0300-\u036f]/g, '').replace(/\u00df/g, 'ss')
   .replace(/&/g, ' and ').replace(/\bund\b/g, ' and ').replace(/[^a-z0-9]+/g, '');
 
 function titleTargets(t){
