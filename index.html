@@ -1461,21 +1461,13 @@ const txt = (tag, cls, text) => { const e = el(tag, cls); e.textContent = text; 
 /* ---------- Firebase (Verbindung zwischen den Handys) ---------- */
 
 const FIREBASE_CONFIG = {
-
-  apiKey: 'AIzaSyAJHtqb_KdxoSl1x2bry106rGD1vg0V7i8',
-
-  authDomain: 'p-quiz-3569d.firebaseapp.com',
-
-  databaseURL: 'https://p-quiz-3569d-default-rtdb.europe-west1.firebasedatabase.app',
-
-  projectId: 'p-quiz-3569d',
-
-  storageBucket: 'p-quiz-3569d.firebasestorage.app',
-
-  messagingSenderId: '1095371246512',
-
-  appId: '1:1095371246512:web:afad1826fb1ad83a8aa475'
-
+  apiKey: 'AIzaSyBRn4o_g5KN0Mh3zIHtD0s17g7QdhdzaNg',
+  authDomain: 'pquiz-simon.firebaseapp.com',
+  databaseURL: 'https://pquiz-simon-default-rtdb.europe-west1.firebasedatabase.app',
+  projectId: 'pquiz-simon',
+  storageBucket: 'pquiz-simon.firebasestorage.app',
+  messagingSenderId: '653149957591',
+  appId: '1:653149957591:web:8c0c19656bb093efe12f92'
 };
 
 const FB_SDK = 'https://www.gstatic.com/firebasejs/12.12.0/';
@@ -1586,7 +1578,7 @@ const store = {
 
 };
 
-const DEFAULT_CLIENT_ID = 'c5517ec81bfe42e791bed692f8b22d5b';
+const DEFAULT_CLIENT_ID = 'b5f3f188e625427ea0832972023ca863';
 
 const clientId = () => store.get('clientId', '') || DEFAULT_CLIENT_ID;
 
