@@ -172,7 +172,7 @@ textarea.field{min-height:5rem;resize:vertical}
 
 
 
-/* HauptmenÃ¼ */
+/* Hauptmenü */
 
 .musicbtn{display:block;width:100%;text-align:left}
 
@@ -232,7 +232,7 @@ textarea.field{min-height:5rem;resize:vertical}
 
 .plchip.on{border-color:var(--accent);background:color-mix(in srgb,var(--accent) 16%,transparent);color:var(--text);text-decoration:none}
 
-.plchip.on::before{content:"âœ“ "}
+.plchip.on::before{content:"✓ "}
 
 
 
@@ -664,7 +664,7 @@ ol.steps li{margin:.25rem 0}
 
   background:var(--text);color:var(--bg);padding:.7rem 1rem;border-radius:12px;max-width:calc(100% - 2rem);z-index:30;font-size:.95rem}
 
-/* ErgÃ¤nzungen */
+/* Ergänzungen */
 
 .row2.col{flex-direction:column;align-items:stretch;gap:.45rem}
 
@@ -732,7 +732,7 @@ ol.steps li{margin:.25rem 0}
 
 
 
-/* NavigationsknÃ¶pfe (ZurÃ¼ck, Fertig, Suchen â€¦) */
+/* Navigationsknöpfe (Zurück, Fertig, Suchen …) */
 
 .nav{display:inline-flex;align-items:center;justify-content:center;gap:.38rem;flex:none;border:1px solid var(--line);background:var(--surface);color:var(--text);border-radius:999px;
 
@@ -754,7 +754,7 @@ ol.steps li{margin:.25rem 0}
 
 #bAdd{align-self:flex-start;margin-top:.6rem}
 
-/* Musik im HauptmenÃ¼ */
+/* Musik im Hauptmenü */
 
 .musicbtn .boxhead{margin:0}
 
@@ -798,7 +798,7 @@ ol.steps li{margin:.25rem 0}
 
   padding:.7rem 1rem;box-shadow:0 -6px 22px rgba(0,0,0,.28);z-index:5}
 
-/* Bingo-Farben im HauptmenÃ¼ */
+/* Bingo-Farben im Hauptmenü */
 
 .cbtn{display:block;width:100%;text-align:left;margin-top:.9rem;border:2px solid color-mix(in srgb,var(--accent) 60%,var(--line));background:color-mix(in srgb,var(--accent) 8%,var(--surface));
 
@@ -818,7 +818,7 @@ ol.steps li{margin:.25rem 0}
 
 .lvlbox h2{margin-bottom:.2rem}
 
-/* Start-Ãœbersicht vor dem Spiel */
+/* Start-Übersicht vor dem Spiel */
 
 .intro{position:fixed;inset:0;z-index:40;display:grid;place-items:center;padding:1.2rem;overflow-y:auto;
 
@@ -924,7 +924,7 @@ ol.steps li{margin:.25rem 0}
 
     <button class="link" id="playOnly" style="justify-self:center">Ich will nur mitspielen</button>
 
-    <p class="muted small" id="insecure" hidden>Diese Seite lÃ¤uft nicht Ã¼ber https. Die Anmeldung funktioniert nur auf deiner GitHub-Pages-Adresse.</p>
+    <p class="muted small" id="insecure" hidden>Diese Seite läuft nicht über https. Die Anmeldung funktioniert nur auf deiner GitHub-Pages-Adresse.</p>
 
     <details>
 
@@ -942,7 +942,7 @@ ol.steps li{margin:.25rem 0}
 
     <h2>Redirect-URI</h2>
 
-    <p class="muted small" style="margin:.4rem 0 .6rem">Diese Adresse muss in deiner Spotify-App unter Redirect URIs stehen, genau so, mit SchrÃ¤gstrich am Ende.</p>
+    <p class="muted small" style="margin:.4rem 0 .6rem">Diese Adresse muss in deiner Spotify-App unter Redirect URIs stehen, genau so, mit Schrägstrich am Ende.</p>
 
     <div class="copy"><code id="redirectShow"></code><button id="copyRedirect" type="button">Kopieren</button></div>
 
@@ -952,7 +952,7 @@ ol.steps li{margin:.25rem 0}
 
 
 
-<!-- HauptmenÃ¼ (Haupthandy) -->
+<!-- Hauptmenü (Haupthandy) -->
 
 <section class="screen" id="home" hidden>
 
@@ -964,7 +964,7 @@ ol.steps li{margin:.25rem 0}
 
   <button class="box musicbtn" id="toMusic" type="button">
 
-    <span class="boxhead" style="margin:0"><h2>Musik</h2><span class="nav sm">Ã„ndern</span></span>
+    <span class="boxhead" style="margin:0"><h2>Musik</h2><span class="nav sm">Ändern</span></span>
 
     <span class="mstats" id="musicInfo"></span>
 
@@ -1004,7 +1004,7 @@ ol.steps li{margin:.25rem 0}
 
     <h2>Spotify ist verbunden</h2>
 
-    <p class="muted" style="margin:.5rem 0 0">Wechsle jetzt zurÃ¼ck zur P-Quiz-App auf deinem Home-Bildschirm. Sie meldet sich von selbst an. Dieses Fenster kannst du schlieÃŸen.</p>
+    <p class="muted" style="margin:.5rem 0 0">Wechsle jetzt zurück zur P-Quiz-App auf deinem Home-Bildschirm. Sie meldet sich von selbst an. Dieses Fenster kannst du schließen.</p>
 
   </div>
 
@@ -1014,7 +1014,7 @@ ol.steps li{margin:.25rem 0}
 
 
 
-<!-- Musik und AbspielgerÃ¤t -->
+<!-- Musik und Abspielgerät -->
 
 <section class="screen" id="settings" hidden>
 
@@ -1024,15 +1024,15 @@ ol.steps li{margin:.25rem 0}
 
     <span class="nric"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M9 18V5l11-2v13" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/><circle cx="6" cy="18" r="3" fill="currentColor"/><circle cx="17" cy="16" r="3" fill="currentColor"/></svg></span>
 
-    <span class="nrtx"><b>Playlists wÃ¤hlen</b><span class="muted small" id="plSummary"></span></span>
+    <span class="nrtx"><b>Playlists wählen</b><span class="muted small" id="plSummary"></span></span>
 
-    <span class="chev" aria-hidden="true">â€º</span>
+    <span class="chev" aria-hidden="true">›</span>
 
   </button>
 
   <div class="box">
 
-    <div class="boxhead"><h2>AbspielgerÃ¤t</h2><button class="nav sm" id="devReload" type="button"><svg viewBox="0 0 16 16" aria-hidden="true"><g fill="none" stroke="currentColor" stroke-width="2.1" stroke-linecap="round"><circle cx="7" cy="7" r="4.5"/><path d="m10.5 10.5 3.3 3.3"/></g></svg>Suchen</button></div>
+    <div class="boxhead"><h2>Abspielgerät</h2><button class="nav sm" id="devReload" type="button"><svg viewBox="0 0 16 16" aria-hidden="true"><g fill="none" stroke="currentColor" stroke-width="2.1" stroke-linecap="round"><circle cx="7" cy="7" r="4.5"/><path d="m10.5 10.5 3.3 3.3"/></g></svg>Suchen</button></div>
 
     <select class="field" id="devSelect"></select>
 
@@ -1042,11 +1042,11 @@ ol.steps li{margin:.25rem 0}
 
       <ol class="steps">
 
-        <li>Auf <b>Handy verbinden</b> tippen. Spotify Ã¶ffnet sich.</li>
+        <li>Auf <b>Handy verbinden</b> tippen. Spotify öffnet sich.</li>
 
-        <li>Im Spotify-Player auf das <b>GerÃ¤te-Symbol</b> tippen und <b>Dieses iPhone</b> wÃ¤hlen.</li>
+        <li>Im Spotify-Player auf das <b>Geräte-Symbol</b> tippen und <b>Dieses iPhone</b> wählen.</li>
 
-        <li>Einen Song starten und zurÃ¼ck zu P-Quiz wechseln. Das Handy wird dann von selbst gefunden.</li>
+        <li>Einen Song starten und zurück zu P-Quiz wechseln. Das Handy wird dann von selbst gefunden.</li>
 
       </ol>
 
@@ -1054,15 +1054,15 @@ ol.steps li{margin:.25rem 0}
 
     </div>
 
-    <button class="btn secondary" id="devTest" type="button" style="margin-top:.7rem">GerÃ¤t testen</button>
+    <button class="btn secondary" id="devTest" type="button" style="margin-top:.7rem">Gerät testen</button>
 
     <p class="muted small" id="devSeen" style="margin:.7rem 0 0" hidden></p>
 
-    <div class="row2 col" style="margin-top:.8rem"><span><b>Nach der HÃ¶rzeit</b></span><div class="seg" id="afterSeg"><button type="button" data-v="silence">Stille</button><button type="button" data-v="pause">Pausieren</button></div></div>
+    <div class="row2 col" style="margin-top:.8rem"><span><b>Nach der Hörzeit</b></span><div class="seg" id="afterSeg"><button type="button" data-v="silence">Stille</button><button type="button" data-v="pause">Pausieren</button></div></div>
 
     <p class="muted small" id="afterHint" style="margin:.3rem 0 0"></p>
 
-    <p class="muted small" style="margin:.6rem 0 0">Mit â€žStilleâ€œ bleibt Spotify auf dem iPhone wÃ¤hrend des ganzen Spiels wach, auch unterwegs. Der Ton kommt Ã¼ber das Handy oder Ã¼ber verbundene KopfhÃ¶rer und Bluetooth-Boxen. â€žEverywhereâ€œ ist die Alexa-Gruppe aller Echos.</p>
+    <p class="muted small" style="margin:.6rem 0 0">Mit „Stille“ bleibt Spotify auf dem iPhone während des ganzen Spiels wach, auch unterwegs. Der Ton kommt über das Handy oder über verbundene Kopfhörer und Bluetooth-Boxen. „Everywhere“ ist die Alexa-Gruppe aller Echos.</p>
 
   </div>
 
@@ -1070,7 +1070,7 @@ ol.steps li{margin:.25rem 0}
 
 
 
-<!-- Playlists wÃ¤hlen -->
+<!-- Playlists wählen -->
 
 <section class="screen" id="playlists" hidden>
 
@@ -1102,9 +1102,9 @@ ol.steps li{margin:.25rem 0}
 
     <input class="field search" id="plSearch" type="search" autocomplete="off" spellcheck="false">
 
-    <div class="pllist" id="plList"><p class="muted">Playlists werden geladen â€¦</p></div>
+    <div class="pllist" id="plList"><p class="muted">Playlists werden geladen …</p></div>
 
-    <button class="link" id="selNone" type="button">Alle abwÃ¤hlen</button>
+    <button class="link" id="selNone" type="button">Alle abwählen</button>
 
     <button class="nav sm" id="cacheClear" type="button" style="margin-top:.8rem"><svg viewBox="0 0 16 16" aria-hidden="true"><path d="M13.5 8A5.5 5.5 0 1 1 11.9 4.1M12.6 1.6v3h-3" fill="none" stroke="currentColor" stroke-width="2.1" stroke-linecap="round" stroke-linejoin="round"/></svg>Songs komplett neu einlesen</button>
 
@@ -1128,7 +1128,7 @@ ol.steps li{margin:.25rem 0}
 
   <div class="topbar"><h1>Bingo-Farben</h1><button class="nav done" id="colorsBack" type="button"><svg viewBox="0 0 16 16" aria-hidden="true"><path d="M3 8.5 6.5 12 13 4.5" fill="none" stroke="currentColor" stroke-width="2.1" stroke-linecap="round" stroke-linejoin="round"/></svg>Fertig</button></div>
 
-  <p class="muted" style="margin:0">Tippe eine Farbe an und wÃ¤hle, was sie abfragt. Wer welche Stufe spielt, legst du im HauptmenÃ¼ fest.</p>
+  <p class="muted" style="margin:0">Tippe eine Farbe an und wähle, was sie abfragt. Wer welche Stufe spielt, legst du im Hauptmenü fest.</p>
 
   <div id="colorList"></div>
 
@@ -1136,11 +1136,11 @@ ol.steps li{margin:.25rem 0}
 
 
 
-<!-- Aufgabe wÃ¤hlen -->
+<!-- Aufgabe wählen -->
 
 <section class="screen" id="picker" hidden>
 
-  <div class="topbar"><h1 id="pickTitle">Aufgabe</h1><button class="nav" id="pickBack" type="button"><svg viewBox="0 0 16 16" aria-hidden="true"><path d="M10 3 5 8l5 5" fill="none" stroke="currentColor" stroke-width="2.1" stroke-linecap="round" stroke-linejoin="round"/></svg>ZurÃ¼ck</button></div>
+  <div class="topbar"><h1 id="pickTitle">Aufgabe</h1><button class="nav" id="pickBack" type="button"><svg viewBox="0 0 16 16" aria-hidden="true"><path d="M10 3 5 8l5 5" fill="none" stroke="currentColor" stroke-width="2.1" stroke-linecap="round" stroke-linejoin="round"/></svg>Zurück</button></div>
 
   <button class="btn primary" id="newTaskBtn" type="button" style="margin-top:.6rem">+ Eigene Aufgabe anlegen</button>
 
@@ -1216,13 +1216,13 @@ ol.steps li{margin:.25rem 0}
 
 <section class="screen" id="lobby" hidden>
 
-  <div class="topbar"><h1>Warteraum</h1><button class="nav" id="lobbyBack" type="button"><svg viewBox="0 0 16 16" aria-hidden="true"><path d="M10 3 5 8l5 5" fill="none" stroke="currentColor" stroke-width="2.1" stroke-linecap="round" stroke-linejoin="round"/></svg>MenÃ¼</button></div>
+  <div class="topbar"><h1>Warteraum</h1><button class="nav" id="lobbyBack" type="button"><svg viewBox="0 0 16 16" aria-hidden="true"><path d="M10 3 5 8l5 5" fill="none" stroke="currentColor" stroke-width="2.1" stroke-linecap="round" stroke-linejoin="round"/></svg>Menü</button></div>
 
   <p class="muted" style="margin:0">Scannt den Code mit der Handykamera oder gebt den Raumcode ein. Hier wartet ihr, bis das Haupthandy ein Spiel startet.</p>
 
   <div class="qr" id="qrBox"></div>
 
-  <div class="roomcode"><div class="label">Raumcode</div><div class="code" id="roomCode">Â·Â·Â·Â·</div></div>
+  <div class="roomcode"><div class="label">Raumcode</div><div class="code" id="roomCode">····</div></div>
 
   <div class="box">
 
@@ -1246,7 +1246,7 @@ ol.steps li{margin:.25rem 0}
 
     <button class="btn secondary" id="lobbySettings">Musik, Modus und Regeln einstellen</button>
 
-    <button class="link" id="closeRoom" style="justify-self:center">Warteraum schlieÃŸen</button>
+    <button class="link" id="closeRoom" style="justify-self:center">Warteraum schließen</button>
 
   </div>
 
@@ -1398,7 +1398,7 @@ ol.steps li{margin:.25rem 0}
 
     <a class="btn secondary" id="msgSpotify" href="spotify:" hidden style="text-align:center;text-decoration:none">Handy verbinden</a>
 
-    <button class="btn secondary" id="msgClose">SchlieÃŸen</button>
+    <button class="btn secondary" id="msgClose">Schließen</button>
 
   </div>
 
@@ -1408,7 +1408,7 @@ ol.steps li{margin:.25rem 0}
 
   <div class="sheet">
 
-    <div class="boxhead"><h2 id="peekTitle"></h2><button class="nav" id="peekClose" type="button"><svg viewBox="0 0 16 16" aria-hidden="true"><path d="M4.5 4.5l7 7M11.5 4.5l-7 7" fill="none" stroke="currentColor" stroke-width="2.1" stroke-linecap="round" stroke-linejoin="round"/></svg>SchlieÃŸen</button></div>
+    <div class="boxhead"><h2 id="peekTitle"></h2><button class="nav" id="peekClose" type="button"><svg viewBox="0 0 16 16" aria-hidden="true"><path d="M4.5 4.5l7 7M11.5 4.5l-7 7" fill="none" stroke="currentColor" stroke-width="2.1" stroke-linecap="round" stroke-linejoin="round"/></svg>Schließen</button></div>
 
     <div id="peekBody"></div>
 
@@ -1558,13 +1558,13 @@ function fbFail(e){
 
   console.error(e);
 
-  return 'Keine Verbindung zum Warteraum. PrÃ¼fe das Internet und versuch es nochmal.';
+  return 'Keine Verbindung zum Warteraum. Prüfe das Internet und versuch es nochmal.';
 
 }
 
 
 
-/* ---------- Speicher (PrÃ¤fix pq.) ---------- */
+/* ---------- Speicher (Präfix pq.) ---------- */
 
 const SYNC_KEYS = ['rules', 'selected', 'mixes', 'seconds', 'colors', 'colorsAdv', 'tasks', 'levels', 'fixes', 'device', 'plSkip', 'after'];
 
@@ -1586,9 +1586,9 @@ const redirectUri = () => location.origin + location.pathname;
 
 
 
-/* Sicherung der Einstellungen in Firebase, verknÃ¼pft mit dem Spotify-Konto.
+/* Sicherung der Einstellungen in Firebase, verknüpft mit dem Spotify-Konto.
 
-   Falls der Browser den Speicher lÃ¶scht, kommen Regeln, Playlists, Mischungen, Aufgaben und Korrekturen nach dem Anmelden zurÃ¼ck. */
+   Falls der Browser den Speicher löscht, kommen Regeln, Playlists, Mischungen, Aufgaben und Korrekturen nach dem Anmelden zurück. */
 
 const cloud = {
 
@@ -1674,7 +1674,7 @@ function afterRestore(){
 
 let askDone = null;
 
-// Eigene RÃ¼ckfrage statt confirm(): Die eingebaute Abfrage blockiert das iPhone manchmal oder erscheint gar nicht
+// Eigene Rückfrage statt confirm(): Die eingebaute Abfrage blockiert das iPhone manchmal oder erscheint gar nicht
 
 function ask(text, yes){
 
@@ -1782,11 +1782,11 @@ async function tokenRequest(params){
 
 }
 
-/* RÃ¼ckkehr von Spotify. Landet die RÃ¼ckkehr in einer anderen Browser-Umgebung als der Start
+/* Rückkehr von Spotify. Landet die Rückkehr in einer anderen Browser-Umgebung als der Start
 
-   (typisch: App auf dem iPhone-Home-Bildschirm, RÃ¼ckkehr in Safari), wird der Code Ã¼ber Firebase an die App weitergereicht.
+   (typisch: App auf dem iPhone-Home-Bildschirm, Rückkehr in Safari), wird der Code über Firebase an die App weitergereicht.
 
-   Ohne den nur in der App gespeicherten PKCE-SchlÃ¼ssel ist der Code fÃ¼r niemanden sonst brauchbar. */
+   Ohne den nur in der App gespeicherten PKCE-Schlüssel ist der Code für niemanden sonst brauchbar. */
 
 const bridgePath = s => 'hosts/auth-' + s;
 
@@ -1808,7 +1808,7 @@ async function handleRedirect(){
 
       try { await FB.start(); await FB.set(bridgePath(state), { code:q.get('code') || '', error:q.get('error') || '', at:FB.stamp() }); return 'bridge'; }
 
-      catch (e) { console.warn('Ãœbergabe nicht mÃ¶glich', e); }
+      catch (e) { console.warn('Übergabe nicht möglich', e); }
 
     }
 
@@ -1884,7 +1884,7 @@ async function getToken(force){
 
       .finally(() => { refreshing = null; });
 
-    // Nur eine echte Ablehnung durch Spotify meldet ab. Ein Funkloch beim Ã–ffnen behÃ¤lt die Anmeldung.
+    // Nur eine echte Ablehnung durch Spotify meldet ab. Ein Funkloch beim Öffnen behält die Anmeldung.
 
     try { t = await refreshing; } catch (e) { if (e && e.auth) { store.del('token'); throw new AuthError(); } throw e; }
 
@@ -1950,17 +1950,17 @@ window.onSpotifyWebPlaybackSDKReady = () => {
 
   sdkPlayer.addListener('initialization_error', fail('Dieser Browser kann Spotify nicht direkt abspielen.'));
 
-  sdkPlayer.addListener('account_error', fail('Spotify verlangt fÃ¼r die Wiedergabe im Browser ein Premium-Konto.'));
+  sdkPlayer.addListener('account_error', fail('Spotify verlangt für die Wiedergabe im Browser ein Premium-Konto.'));
 
   sdkPlayer.addListener('authentication_error', fail('Der Browser-Player von Spotify hat die Anmeldung abgelehnt.'));
 
-  sdkPlayer.addListener('autoplay_failed', () => toast('Der Browser hat den Ton blockiert. Tippe auf â€žNochmal hÃ¶renâ€œ.'));
+  sdkPlayer.addListener('autoplay_failed', () => toast('Der Browser hat den Ton blockiert. Tippe auf „Nochmal hören“.'));
 
   sdkPlayer.connect();
 
 };
 
-// Beim SchlieÃŸen oder Neuladen meldet sich der Browser-Player bei Spotify ab. Sonst sammeln sich alte â€žBrowserâ€œ in der GerÃ¤teliste.
+// Beim Schließen oder Neuladen meldet sich der Browser-Player bei Spotify ab. Sonst sammeln sich alte „Browser“ in der Geräteliste.
 
 window.addEventListener('pagehide', () => { if (sdkPlayer) { try { sdkPlayer.disconnect(); } catch {} sdkDeviceId = null; } });
 
@@ -1996,7 +1996,7 @@ const plTotal = p => (p.items && p.items.total) ?? (p.tracks && p.tracks.total) 
 
 async function loadPlaylists(){
 
-  $('#plList').innerHTML = '<p class="muted">Playlists werden geladen â€¦</p>';
+  $('#plList').innerHTML = '<p class="muted">Playlists werden geladen …</p>';
 
   try {
 
@@ -2054,7 +2054,7 @@ function renderPlaylists(){
 
     const c = own && cacheFresh(p) ? ', gespeichert' : '';
 
-    box2.append(txt('div', 'name', p.name), txt('div', 'meta', own ? plTotal(p) + ' Songs' + c : 'GehÃ¶rt dir nicht. In eine eigene Playlist kopieren, dann ist sie wÃ¤hlbar.'));
+    box2.append(txt('div', 'name', p.name), txt('div', 'meta', own ? plTotal(p) + ' Songs' + c : 'Gehört dir nicht. In eine eigene Playlist kopieren, dann ist sie wählbar.'));
 
     row.append(cb, box2); box.append(row);
 
@@ -2082,17 +2082,17 @@ function selectionText(){
 
 function renderSelInfo(){
 
-  $('#plSummary').textContent = !playlists.length ? 'Playlists werden geladen â€¦' : selectionText() || 'Noch keine gewÃ¤hlt';
+  $('#plSummary').textContent = !playlists.length ? 'Playlists werden geladen …' : selectionText() || 'Noch keine gewählt';
 
-  $('#selInfo').textContent = selectionText() ? selectionText() + ' gewÃ¤hlt' : 'WÃ¤hle mindestens eine Playlist.';
+  $('#selInfo').textContent = selectionText() ? selectionText() + ' gewählt' : 'Wähle mindestens eine Playlist.';
 
   const ids = validSelection(), fresh = ids.filter(id => cacheFresh(playlists.find(p => p.id === id))).length;
 
-  $('#cacheInfo').textContent = !ids.length ? '' : fresh === ids.length ? 'Alle Songs sind gespeichert, das Spiel startet ohne Ladezeit.' : warming ? 'Songs werden im Hintergrund eingelesen â€¦' : (ids.length - fresh) + ' Playlist(s) werden beim Start eingelesen.';
+  $('#cacheInfo').textContent = !ids.length ? '' : fresh === ids.length ? 'Alle Songs sind gespeichert, das Spiel startet ohne Ladezeit.' : warming ? 'Songs werden im Hintergrund eingelesen …' : (ids.length - fresh) + ' Playlist(s) werden beim Start eingelesen.';
 
 }
 
-/* Musik-Ãœbersicht im HauptmenÃ¼: Playlists, HÃ¶rzeit, AbspielgerÃ¤t */
+/* Musik-Übersicht im Hauptmenü: Playlists, Hörzeit, Abspielgerät */
 
 const ICONS = {
 
@@ -2116,19 +2116,19 @@ function renderMusicInfo(){
 
     '<span class="vl">' + esc(value) + '</span>' + (sub ? '<span class="vs">' + esc(sub) + '</span>' : '') + '</span></span>';
 
-  const plVal = !playlists.length ? 'Werden geladen â€¦' : !names.length ? 'Noch keine gewÃ¤hlt' : names.length > 2 ? names.slice(0, 2).join(', ') + ' +' + (names.length - 2) : names.join(', ');
+  const plVal = !playlists.length ? 'Werden geladen …' : !names.length ? 'Noch keine gewählt' : names.length > 2 ? names.slice(0, 2).join(', ') + ' +' + (names.length - 2) : names.join(', ');
 
   $('#musicInfo').innerHTML =
 
     row('music', 'Playlists', plVal, names.length ? names.length + (names.length === 1 ? ' Playlist' : ' Playlists') + ' mit ' + songs + ' Songs' : '', playlists.length && !names.length) +
 
-    row('phone', 'AbspielgerÃ¤t', d ? d.name : 'Noch nicht gewÃ¤hlt', '', !d);
+    row('phone', 'Abspielgerät', d ? d.name : 'Noch nicht gewählt', '', !d);
 
 }
 
-/* Kombinierte Playlists: wie die Playlists unten als Zeile zum Antippen. Mehrere lassen sich gleichzeitig wÃ¤hlen.
+/* Kombinierte Playlists: wie die Playlists unten als Zeile zum Antippen. Mehrere lassen sich gleichzeitig wählen.
 
-   Gespeichert werden sie auf dem GerÃ¤t und in der Sicherung bei Firebase, sie bleiben also auch nach Wochen erhalten. */
+   Gespeichert werden sie auf dem Gerät und in der Sicherung bei Firebase, sie bleiben also auch nach Wochen erhalten. */
 
 const mixOn = (m, sel) => m.ids.length > 0 && m.ids.every(id => sel.has(id));
 
@@ -2138,7 +2138,7 @@ function toggleMix(m){
 
   if (mixOn(m, sel)) {
 
-    // AbwÃ¤hlen: Playlists, die auch in einer anderen gewÃ¤hlten Kombination stecken, bleiben drin
+    // Abwählen: Playlists, die auch in einer anderen gewählten Kombination stecken, bleiben drin
 
     const keep = new Set();
 
@@ -2154,11 +2154,11 @@ function toggleMix(m){
 
 async function deleteMix(m){
 
-  if (!(await ask('Kombinierte Playlist â€ž' + m.name + 'â€œ lÃ¶schen? Die Playlists selbst bleiben bei Spotify erhalten.', 'LÃ¶schen'))) return;
+  if (!(await ask('Kombinierte Playlist „' + m.name + '“ löschen? Die Playlists selbst bleiben bei Spotify erhalten.', 'Löschen'))) return;
 
   store.set('mixes', store.get('mixes', []).filter(o => o.name !== m.name)); renderMixes();
 
-  toast('â€ž' + m.name + 'â€œ gelÃ¶scht.');
+  toast('„' + m.name + '“ gelöscht.');
 
 }
 
@@ -2168,7 +2168,7 @@ function renderMixes(){
 
   box.innerHTML = '';
 
-  if (!mixes.length) { box.innerHTML = '<p class="muted small" style="margin:0 0 .7rem">WÃ¤hle unten mehrere Playlists aus und speichere die Auswahl hier unter einem Namen. Dann ist sie mit einem Tipp wieder da. Du kannst auch mehrere Kombinationen gleichzeitig wÃ¤hlen.</p>'; return; }
+  if (!mixes.length) { box.innerHTML = '<p class="muted small" style="margin:0 0 .7rem">Wähle unten mehrere Playlists aus und speichere die Auswahl hier unter einem Namen. Dann ist sie mit einem Tipp wieder da. Du kannst auch mehrere Kombinationen gleichzeitig wählen.</p>'; return; }
 
   const sel = selected();
 
@@ -2188,11 +2188,11 @@ function renderMixes(){
 
     info.append(txt('div', 'name', m.name), txt('div', 'meta', !playlists.length ? m.ids.length + (m.ids.length === 1 ? ' Playlist' : ' Playlists')
 
-      : own.map(p => p.name).join(', ') + ' Â· ' + songs + ' Songs'));
+      : own.map(p => p.name).join(', ') + ' · ' + songs + ' Songs'));
 
-    const x = txt('button', 'x', 'Ã—'); x.type = 'button';
+    const x = txt('button', 'x', '×'); x.type = 'button';
 
-    x.setAttribute('aria-label', 'Kombinierte Playlist ' + m.name + ' lÃ¶schen');
+    x.setAttribute('aria-label', 'Kombinierte Playlist ' + m.name + ' löschen');
 
     x.onclick = ev => { ev.preventDefault(); ev.stopPropagation(); deleteMix(m); };
 
@@ -2210,13 +2210,13 @@ function saveMix(){
 
   if (!name) { toast('Gib der kombinierten Playlist einen Namen.'); return; }
 
-  if (!ids.length) { toast('WÃ¤hle zuerst Playlists aus.'); return; }
+  if (!ids.length) { toast('Wähle zuerst Playlists aus.'); return; }
 
   const mixes = store.get('mixes', []).filter(m => m.name.toLowerCase() !== name.toLowerCase());
 
   mixes.push({ name, ids }); mixes.sort((a, b) => a.name.localeCompare(b.name, 'de'));
 
-  store.set('mixes', mixes); $('#mixName').value = ''; renderMixes(); toast('Kombinierte Playlist â€ž' + name + 'â€œ gespeichert.');
+  store.set('mixes', mixes); $('#mixName').value = ''; renderMixes(); toast('Kombinierte Playlist „' + name + '“ gespeichert.');
 
 }
 
@@ -2240,9 +2240,9 @@ const isSdkDev = d => !!d && (d.sdk === true || d.name === SDK_NAME || d.name ==
 
 const devLabel = d => d.name + (DEV_TYPES[d.type] ? ' (' + DEV_TYPES[d.type] + ')' : '');
 
-/* Alle GerÃ¤te, die Spotify meldet, stehen wieder zur Wahl: Handys, Computer, Echo und andere Lautsprecher, Gruppen, Fernseher.
+/* Alle Geräte, die Spotify meldet, stehen wieder zur Wahl: Handys, Computer, Echo und andere Lautsprecher, Gruppen, Fernseher.
 
-   KopfhÃ¶rer und Bluetooth-Boxen sind fÃ¼r Spotify kein eigenes GerÃ¤t: Sie spielen mit, wenn sie mit dem Handy verbunden sind. */
+   Kopfhörer und Bluetooth-Boxen sind für Spotify kein eigenes Gerät: Sie spielen mit, wenn sie mit dem Handy verbunden sind. */
 
 const devTypeOk = () => true;
 
@@ -2260,9 +2260,9 @@ function devAllowed(want, raw){
 
 }
 
-/* Was Spotify gerade meldet: alle GerÃ¤te und dazu das GerÃ¤t, auf das Spotify gerade eingestellt ist.
+/* Was Spotify gerade meldet: alle Geräte und dazu das Gerät, auf das Spotify gerade eingestellt ist.
 
-   Das fehlt manchmal in der GerÃ¤teliste, Spotify kennt es aber noch. */
+   Das fehlt manchmal in der Geräteliste, Spotify kennt es aber noch. */
 
 async function spotifyDevices(){
 
@@ -2278,23 +2278,23 @@ async function spotifyDevices(){
 
 }
 
-// Spotify ist auf einen Lautsprecher (Echo, â€žEverywhereâ€œ â€¦) eingestellt. Dann schlÃ¤ft die Spotify-App auf dem Handy.
+// Spotify ist auf einen Lautsprecher (Echo, „Everywhere“ …) eingestellt. Dann schläft die Spotify-App auf dem Handy.
 
 const SPEAKERS = ['Speaker', 'TV', 'AVR', 'STB', 'AudioDongle', 'GameConsole', 'CastVideo', 'CastAudio', 'Automobile'];
 
 const speakerActive = s => !!(s && s.active && s.active.name !== SDK_NAME && SPEAKERS.includes(s.active.type));
 
-// ErklÃ¤rt, warum das Handy fehlt und was zu tun ist
+// Erklärt, warum das Handy fehlt und was zu tun ist
 
 function phoneHelp(s, name){
 
-  const who = name ? 'â€ž' + name + 'â€œ' : 'deinem Handy';
+  const who = name ? '„' + name + '“' : 'deinem Handy';
 
-  if (speakerActive(s)) return 'Spotify ' + (s.playing ? 'spielt gerade auf' : 'ist gerade auf') + ' â€ž' + s.active.name + 'â€œ' + (s.playing ? '' : ' eingestellt') +
+  if (speakerActive(s)) return 'Spotify ' + (s.playing ? 'spielt gerade auf' : 'ist gerade auf') + ' „' + s.active.name + '“' + (s.playing ? '' : ' eingestellt') +
 
-    '. Darum schlÃ¤ft Spotify auf ' + who + '. Entweder unter Musik â€ž' + s.active.name + 'â€œ als AbspielgerÃ¤t wÃ¤hlen, oder auf â€žHandy verbindenâ€œ tippen, in Spotify Ã¼ber das GerÃ¤te-Symbol â€žDieses iPhoneâ€œ wÃ¤hlen, einen Song starten und zurÃ¼ck zu P-Quiz wechseln.';
+    '. Darum schläft Spotify auf ' + who + '. Entweder unter Musik „' + s.active.name + '“ als Abspielgerät wählen, oder auf „Handy verbinden“ tippen, in Spotify über das Geräte-Symbol „Dieses iPhone“ wählen, einen Song starten und zurück zu P-Quiz wechseln.';
 
-  return 'Spotify auf ' + who + ' schlÃ¤ft gerade. Das iPhone legt Spotify wenige Sekunden nach dem Pausieren schlafen, wenn P-Quiz vorne ist. Tippe auf â€žHandy verbindenâ€œ, starte in Spotify einen Song und wechsle zurÃ¼ck zu P-Quiz, dann geht es von selbst weiter. Damit es nicht wieder passiert: unter Musik â€žNach der HÃ¶rzeit: Stilleâ€œ wÃ¤hlen, oder ein GerÃ¤t, das nicht einschlÃ¤ft, etwa den Echo.';
+  return 'Spotify auf ' + who + ' schläft gerade. Das iPhone legt Spotify wenige Sekunden nach dem Pausieren schlafen, wenn P-Quiz vorne ist. Tippe auf „Handy verbinden“, starte in Spotify einen Song und wechsle zurück zu P-Quiz, dann geht es von selbst weiter. Damit es nicht wieder passiert: unter Musik „Nach der Hörzeit: Stille“ wählen, oder ein Gerät, das nicht einschläft, etwa den Echo.';
 
 }
 
@@ -2302,15 +2302,15 @@ function seenText(s){
 
   const list = s.raw.filter(d => d.name !== SDK_NAME);
 
-  if (!list.length) return 'Spotify meldet gerade gar kein GerÃ¤t.';
+  if (!list.length) return 'Spotify meldet gerade gar kein Gerät.';
 
-  return 'Spotify meldet gerade: ' + list.map(d => d.name + ' (' + (DEV_TYPES[d.type] || d.type || 'GerÃ¤t') + (d.is_active ? (s.playing ? ', spielt' : ', eingestellt') : '') + ')').join(', ') + '.';
+  return 'Spotify meldet gerade: ' + list.map(d => d.name + ' (' + (DEV_TYPES[d.type] || d.type || 'Gerät') + (d.is_active ? (s.playing ? ', spielt' : ', eingestellt') : '') + ')').join(', ') + '.';
 
 }
 
-/* GerÃ¤teliste ohne die P-Quiz-Browser-Player (die gibt es als eine Zeile â€žDieser Browserâ€œ).
+/* Geräteliste ohne die P-Quiz-Browser-Player (die gibt es als eine Zeile „Dieser Browser“).
 
-   Meldet Spotify ein GerÃ¤t mehrfach mit gleichem Namen, steht es nur einmal da. */
+   Meldet Spotify ein Gerät mehrfach mit gleichem Namen, steht es nur einmal da. */
 
 function deviceList(raw){
 
@@ -2334,7 +2334,7 @@ const sameDev = (d, want) => d.id === want.id || (d.name === (want.raw || want.n
 
 let devShown = [], lastHelp = '';
 
-// Gibt true zurÃ¼ck, wenn ein erreichbares AbspielgerÃ¤t gewÃ¤hlt ist. quiet: Fehler nicht als Meldung zeigen (fÃ¼r die automatische Suche).
+// Gibt true zurück, wenn ein erreichbares Abspielgerät gewählt ist. quiet: Fehler nicht als Meldung zeigen (für die automatische Suche).
 
 async function loadDevices(quiet){
 
@@ -2356,11 +2356,11 @@ async function loadDevices(quiet){
 
     devShown = [];
 
-    if (want && !isSdkDev(want) && !mine) devShown.push({ id:want.id, label:want.name + ' (schlÃ¤ft gerade)', dev:want, stale:true });
+    if (want && !isSdkDev(want) && !mine) devShown.push({ id:want.id, label:want.name + ' (schläft gerade)', dev:want, stale:true });
 
     for (const d of list) devShown.push({ id:d.id, label:devLabel(d) + (/^everywhere$/i.test(d.name) ? ', alle Echos' : ''), dev:{ id:d.id, name:devLabel(d), raw:d.name, type:d.type } });
 
-    if (sdkPossible() && (!sdkErr || isSdkDev(want))) devShown.push({ id:'__sdk', label:sdkErr ? SDK_LABEL + ' (geht hier nicht)' : sdkDeviceId ? SDK_LABEL : SDK_LABEL + ' (startet noch â€¦)', dev:{ sdk:true, name:SDK_LABEL } });
+    if (sdkPossible() && (!sdkErr || isSdkDev(want))) devShown.push({ id:'__sdk', label:sdkErr ? SDK_LABEL + ' (geht hier nicht)' : sdkDeviceId ? SDK_LABEL : SDK_LABEL + ' (startet noch …)', dev:{ sdk:true, name:SDK_LABEL } });
 
     sel.innerHTML = '';
 
@@ -2392,7 +2392,7 @@ async function loadDevices(quiet){
 
     if (!ok) { info.hidden = false; info.className = 'small bad'; info.textContent = lastHelp.split(' Tippe auf')[0]; info.dataset.auto = '1'; }
 
-    else if (pick.id !== '__sdk') { info.hidden = false; info.className = 'small devok'; info.textContent = 'âœ“ ' + (pick.dev.raw || pick.dev.name) + ' ist bereit.'; info.dataset.auto = '1'; }
+    else if (pick.id !== '__sdk') { info.hidden = false; info.className = 'small devok'; info.textContent = '✓ ' + (pick.dev.raw || pick.dev.name) + ' ist bereit.'; info.dataset.auto = '1'; }
 
     else if (info.dataset.auto) info.hidden = true;
 
@@ -2414,7 +2414,7 @@ function pickDevice(id){
 
 }
 
-/* â€žHandy verbindenâ€œ Ã¶ffnet Spotify. Wechselt man zurÃ¼ck, sucht P-Quiz ein paar Sekunden lang von selbst nach dem Handy
+/* „Handy verbinden“ öffnet Spotify. Wechselt man zurück, sucht P-Quiz ein paar Sekunden lang von selbst nach dem Handy
 
    und macht dann dort weiter, wo es stand: auf der Musik-Seite oder im laufenden Spiel. */
 
@@ -2444,7 +2444,7 @@ async function pollPhone(){
 
       const d = store.get('device', null);
 
-      toast('âœ“ ' + (d ? (d.raw || d.name) : 'Handy') + ' ist verbunden.');
+      toast('✓ ' + (d ? (d.raw || d.name) : 'Handy') + ' ist verbunden.');
 
       if (w.then) { $('#msg').hidden = true; w.then(); }
 
@@ -2462,21 +2462,21 @@ async function pollPhone(){
 
 }
 
-/* GerÃ¤t testen: ein paar Sekunden eines Songs aus den gewÃ¤hlten Playlists, dann fragen, ob Spotify wirklich spielt */
+/* Gerät testen: ein paar Sekunden eines Songs aus den gewählten Playlists, dann fragen, ob Spotify wirklich spielt */
 
 async function testDevice(){
 
   const info = $('#devInfo'), say = (t, bad) => { info.hidden = false; info.textContent = t; info.className = 'small' + (bad ? ' bad' : ''); };
 
-  if (running() && M.round) { toast('WÃ¤hrend eines laufenden Spiels geht der Test nicht.'); return; }
+  if (running() && M.round) { toast('Während eines laufenden Spiels geht der Test nicht.'); return; }
 
   activateSdk();
 
   const ids = validSelection();
 
-  if (!ids.length) { say('WÃ¤hle oben zuerst eine Playlist. Aus ihr kommt der Testsong.', true); return; }
+  if (!ids.length) { say('Wähle oben zuerst eine Playlist. Aus ihr kommt der Testsong.', true); return; }
 
-  say('Testsong wird gestartet â€¦');
+  say('Testsong wird gestartet …');
 
   try {
 
@@ -2498,15 +2498,15 @@ async function testDevice(){
 
     if (st && st.item && st.is_playing !== false) {
 
-      const where = st.device ? (st.device.name === SDK_NAME ? 'diesem Browser' : 'â€ž' + st.device.name + 'â€œ') : 'dem GerÃ¤t';
+      const where = st.device ? (st.device.name === SDK_NAME ? 'diesem Browser' : '„' + st.device.name + '“') : 'dem Gerät';
 
-      say('Spotify spielt gerade â€ž' + st.item.name + 'â€œ auf ' + where + '. HÃ¶rst du nichts, dreh dort die LautstÃ¤rke hoch.');
+      say('Spotify spielt gerade „' + st.item.name + '“ auf ' + where + '. Hörst du nichts, dreh dort die Lautstärke hoch.');
 
-    } else say('Spotify meldet, dass nichts lÃ¤uft. Ã–ffne Spotify auf dem GerÃ¤t, spiel kurz etwas an, tippe auf Suchen und teste nochmal. Oder wÃ¤hle ein anderes GerÃ¤t.', true);
+    } else say('Spotify meldet, dass nichts läuft. Öffne Spotify auf dem Gerät, spiel kurz etwas an, tippe auf Suchen und teste nochmal. Oder wähle ein anderes Gerät.', true);
 
   } catch (e) {
 
-    if (e instanceof SkipError) say('Dieser Song lieÃŸ sich nicht abspielen. Teste nochmal.', true);
+    if (e instanceof SkipError) say('Dieser Song ließ sich nicht abspielen. Teste nochmal.', true);
 
     else if (e instanceof UserError) { say(e.message, true); if (e instanceof SleepError) $('#devHelp').hidden = false; }
 
@@ -2540,13 +2540,13 @@ function openPlaylists(){
 
 const norm = s => String(s || '').toLowerCase().normalize('NFD').replace(/[\u0300-\u036f]/g, '').replace(/[^a-z0-9]+/g, '');
 
-const cleanTitle = s => String(s || '').replace(/\s[-â€“]\s.*$/, '').replace(/[(\[].*?[)\]]/g, '');
+const cleanTitle = s => String(s || '').replace(/\s[-–]\s.*$/, '').replace(/[(\[].*?[)\]]/g, '');
 
 const rnd = n => crypto.getRandomValues(new Uint32Array(1))[0] % n;
 
 function shuffle(a){ for (let i = a.length - 1; i > 0; i--) { const j = rnd(i + 1); [a[i], a[j]] = [a[j], a[i]]; } return a; }
 
-// Albumcover: die GrÃ¶ÃŸe, die am nÃ¤chsten an 300 Pixeln liegt (Spotify liefert meist 640, 300 und 64)
+// Albumcover: die Größe, die am nächsten an 300 Pixeln liegt (Spotify liefert meist 640, 300 und 64)
 
 const IMG_BASE = 'https://i.scdn.co/image/';
 
@@ -2576,7 +2576,7 @@ function toCard(t){
 
 /* Zwischenspeicher: jede Playlist wird nur einmal komplett eingelesen.
 
-   Ã„ndert sich die Playlist bei Spotify, werden nur die neu angehÃ¤ngten Songs nachgeladen. */
+   Ändert sich die Playlist bei Spotify, werden nur die neu angehängten Songs nachgeladen. */
 
 const songKey = (title, artist) => norm(cleanTitle(title)) + '|' + norm(String(artist || '').split(', ')[0]);
 
@@ -2586,7 +2586,7 @@ const packCard = c => [c.uri.replace('spotify:track:', ''), c.title, c.artist, c
 
 const unpackCard = a => ({ uri:'spotify:track:' + a[0], title:a[1], artist:a[2], album:a[3], year:a[4], duration:a[5], img:a[6] || '', k:songKey(a[1], a[2]) });
 
-// Zwischenspeicher-Format 2 enthÃ¤lt die Cover. Ã„ltere SpeicherstÃ¤nde werden einmal neu eingelesen.
+// Zwischenspeicher-Format 2 enthält die Cover. Ältere Speicherstände werden einmal neu eingelesen.
 
 const PC_FORMAT = 2;
 
@@ -2598,7 +2598,7 @@ function cachePut(id, obj){
 
   if (store.set('pc.' + id, obj)) return;
 
-  // Speicher voll: alte Playlists rauswerfen, die gerade nicht gewÃ¤hlt sind
+  // Speicher voll: alte Playlists rauswerfen, die gerade nicht gewählt sind
 
   const keep = new Set(selected());
 
@@ -2630,7 +2630,7 @@ function playlistCards(id, onProgress){
 
 async function readPlaylist(id, onProgress){
 
-  const p = playlists.find(x => x.id === id), name = p ? 'â€ž' + p.name + 'â€œ' : 'Playlist';
+  const p = playlists.find(x => x.id === id), name = p ? '„' + p.name + '“' : 'Playlist';
 
   const c = cacheGet(id);
 
@@ -2646,7 +2646,7 @@ async function readPlaylist(id, onProgress){
 
   while (next) {
 
-    onProgress && onProgress((isNew ? 'Neue Songs aus ' : 'Lese ') + name + ' ein â€¦ ' + (isNew ? '' : raw + (p ? ' von ' + plTotal(p) : '')));
+    onProgress && onProgress((isNew ? 'Neue Songs aus ' : 'Lese ') + name + ' ein … ' + (isNew ? '' : raw + (p ? ' von ' + plTotal(p) : '')));
 
     const page = await api(next);
 
@@ -2704,11 +2704,11 @@ async function warmCache(){
 
 }
 
-/* JahresprÃ¼fung: Bei Remastern, Neuauflagen und Best-of-Alben nennt Spotify oft das Jahr der Neuauflage.
+/* Jahresprüfung: Bei Remastern, Neuauflagen und Best-of-Alben nennt Spotify oft das Jahr der Neuauflage.
 
-   FÃ¼r jede Karte sucht P-Quiz bei Spotify denselben Song vom selben KÃ¼nstler und nimmt das frÃ¼heste Erscheinungsjahr.
+   Für jede Karte sucht P-Quiz bei Spotify denselben Song vom selben Künstler und nimmt das früheste Erscheinungsjahr.
 
-   Das Ergebnis wird gespeichert, jeder Song wird also nur einmal geprÃ¼ft. Eigene Korrekturen haben immer Vorrang. */
+   Das Ergebnis wird gespeichert, jeder Song wird also nur einmal geprüft. Eigene Korrekturen haben immer Vorrang. */
 
 let ycMem = null;
 
@@ -2776,7 +2776,7 @@ function verifyYear(c){
 
 }
 
-// Die nÃ¤chsten Karten im Stapel schon im Hintergrund prÃ¼fen
+// Die nächsten Karten im Stapel schon im Hintergrund prüfen
 
 let yearPrefetch = false;
 
@@ -2806,7 +2806,7 @@ async function buildDeck(ids, onProgress){
 
     catch (e) {
 
-      if (e instanceof ApiError && (e.status === 403 || e.status === 404)) { toast('â€ž' + (p ? p.name : 'Eine Playlist') + 'â€œ wurde Ã¼bersprungen, Spotify gibt ihre Songs nicht heraus.'); continue; }
+      if (e instanceof ApiError && (e.status === 403 || e.status === 404)) { toast('„' + (p ? p.name : 'Eine Playlist') + '“ wurde übersprungen, Spotify gibt ihre Songs nicht heraus.'); continue; }
 
       throw e;
 
@@ -2838,7 +2838,7 @@ async function buildDeck(ids, onProgress){
 
 /* ---------- Abspielen ---------- */
 
-/* HÃ¶rzeit: fÃ¼r jeden Modus einzeln (Regeln im HauptmenÃ¼). Ohne eigene Einstellung gilt der frÃ¼here gemeinsame Wert. */
+/* Hörzeit: für jeden Modus einzeln (Regeln im Hauptmenü). Ohne eigene Einstellung gilt der frühere gemeinsame Wert. */
 
 const hearDefault = () => Math.min(60, Math.max(1, Number(store.get('seconds', 20)) || 20));
 
@@ -2846,17 +2846,17 @@ const hearFor = mode => { const h = (store.get('rules', {}) || {}).hear || {}, v
 
 const seconds = () => hearFor(M ? M.mode : rules().mode);
 
-// Laufen in einer Runde 2 oder 3 Songs (Bingo), spielt jeder hÃ¶chstens 10 Sekunden. Ist die HÃ¶rzeit kÃ¼rzer, gilt die HÃ¶rzeit.
+// Laufen in einer Runde 2 oder 3 Songs (Bingo), spielt jeder höchstens 10 Sekunden. Ist die Hörzeit kürzer, gilt die Hörzeit.
 
 const MULTI_MAX = 10, SONG_GAP = 2;
 
 const clipSecs = () => M && M.cards && M.cards.length > 1 ? Math.min(MULTI_MAX, seconds()) : seconds();
 
-/* Nach der HÃ¶rzeit:
+/* Nach der Hörzeit:
 
-   'silence' = Spotify spielt einen stillen Track weiter. Man hÃ¶rt nichts, aber die Spotify-App auf dem iPhone bleibt wach.
+   'silence' = Spotify spielt einen stillen Track weiter. Man hört nichts, aber die Spotify-App auf dem iPhone bleibt wach.
 
-   'pause'   = Spotify pausiert. Gut fÃ¼r Echo oder Computer. Ein iPhone legt Spotify dann nach wenigen Sekunden schlafen.
+   'pause'   = Spotify pausiert. Gut für Echo oder Computer. Ein iPhone legt Spotify dann nach wenigen Sekunden schlafen.
 
    Ohne eigene Wahl: bei Handy und Tablet Stille, sonst Pause. */
 
@@ -2866,9 +2866,9 @@ const keepRun = () => afterClip() === 'run';
 
 const AFTER_HINT = {
 
-  silence:'FÃ¼r das Handy. Nach der HÃ¶rzeit spielt Spotify einen stillen Track. Man hÃ¶rt nichts, aber Spotify auf dem iPhone bleibt wach und die nÃ¤chste Karte startet sofort.',
+  silence:'Für das Handy. Nach der Hörzeit spielt Spotify einen stillen Track. Man hört nichts, aber Spotify auf dem iPhone bleibt wach und die nächste Karte startet sofort.',
 
-  pause:'FÃ¼r Computer oder Echo. Der Song stoppt nach der HÃ¶rzeit. Auf dem iPhone schlÃ¤ft Spotify dann nach wenigen Sekunden ein.'
+  pause:'Für Computer oder Echo. Der Song stoppt nach der Hörzeit. Auf dem iPhone schläft Spotify dann nach wenigen Sekunden ein.'
 
 };
 
@@ -2884,7 +2884,7 @@ function renderAfter(){
 
 /* Stille Spotify-Tracks (je etwa 10 Minuten). Nacheinander ergibt das rund 40 Minuten Stille.
 
-   Fehlt einer bei Spotify, springt Spotify von selbst zum nÃ¤chsten. */
+   Fehlt einer bei Spotify, springt Spotify von selbst zum nächsten. */
 
 const SILENCE = ['spotify:track:05uF1aas25zdpyWsOltkJf', 'spotify:track:6gWSdJ0JS8hPUrKDUrgEwj', 'spotify:track:0vqOexC3BQ4wpFREmBoQqm', 'spotify:track:3mkOlbSv5RYadx0JsjTrKq'];
 
@@ -2916,7 +2916,7 @@ function holdMusic(){
 
 }
 
-// Schon beim Ã–ffnen des Spielraums und beim Spielstart das Handy mit Stille wachhalten, damit die erste Karte sofort lÃ¤uft
+// Schon beim Öffnen des Spielraums und beim Spielstart das Handy mit Stille wachhalten, damit die erste Karte sofort läuft
 
 async function wakeHold(){
 
@@ -2938,13 +2938,13 @@ function startPos(dur, secs){
 
 }
 
-// Der Browser-Player bekommt bei jedem Ã–ffnen der Seite eine neue Kennung. Gespielt wird immer auf dem aktuellen, nie auf einem alten.
+// Der Browser-Player bekommt bei jedem Öffnen der Seite eine neue Kennung. Gespielt wird immer auf dem aktuellen, nie auf einem alten.
 
 async function sdkReady(){
 
-  if (!sdkPossible()) throw new UserError('Auf dem iPhone kann P-Quiz nicht selbst abspielen. Ã–ffne die Spotify-App, spiel kurz etwas an und wÃ¤hle unter Musik dein Handy als AbspielgerÃ¤t.');
+  if (!sdkPossible()) throw new UserError('Auf dem iPhone kann P-Quiz nicht selbst abspielen. Öffne die Spotify-App, spiel kurz etwas an und wähle unter Musik dein Handy als Abspielgerät.');
 
-  if (sdkErr) throw new UserError(sdkErr + ' WÃ¤hle unter Musik ein anderes AbspielgerÃ¤t, am besten die Spotify-App auf einem Handy.');
+  if (sdkErr) throw new UserError(sdkErr + ' Wähle unter Musik ein anderes Abspielgerät, am besten die Spotify-App auf einem Handy.');
 
   loadSdk();
 
@@ -2952,7 +2952,7 @@ async function sdkReady(){
 
   if (sdkErr) return sdkReady();
 
-  if (!sdkDeviceId) throw new UserError('Der Browser-Player von Spotify ist noch nicht bereit. Versuch es gleich nochmal, oder wÃ¤hle unter Musik die Spotify-App auf einem Handy.');
+  if (!sdkDeviceId) throw new UserError('Der Browser-Player von Spotify ist noch nicht bereit. Versuch es gleich nochmal, oder wähle unter Musik die Spotify-App auf einem Handy.');
 
   return sdkDeviceId;
 
@@ -2966,7 +2966,7 @@ async function resolveDevice(){
 
   const s = await spotifyDevices(), list = s.raw.filter(x => x.name !== SDK_NAME && devTypeOk(x.type));
 
-  // Ein frÃ¼her gespeicherter Lautsprecher (Echo, â€žEverywhereâ€œ â€¦) gilt nicht mehr
+  // Ein früher gespeicherter Lautsprecher (Echo, „Everywhere“ …) gilt nicht mehr
 
   if (want && !devAllowed(want, s.raw)) { store.del('device'); want = null; }
 
@@ -2984,7 +2984,7 @@ async function resolveDevice(){
 
   const help = phoneHelp(s, want && (want.raw || want.name));
 
-  // Das gewÃ¤hlte Handy fehlt in der Liste: trotzdem versuchen. Ist Spotify auf einen Lautsprecher eingestellt, schlÃ¤ft das Handy sicher.
+  // Das gewählte Handy fehlt in der Liste: trotzdem versuchen. Ist Spotify auf einen Lautsprecher eingestellt, schläft das Handy sicher.
 
   if (want && want.id && !speakerActive(s)) return { id:want.id, name:want.raw || want.name, guess:true, help };
 
@@ -2998,7 +2998,7 @@ const clip = { token:0, timer:null, on:false };
 
 async function pauseMusic(){ silentOn = false; try { await api('/me/player/pause', { method:'PUT' }); } catch (e) { if (e instanceof AuthError) handleError(e); } }
 
-// resume = { pos, left }: nach einer Pause an der gestoppten Stelle weiterspielen, nur noch die restliche HÃ¶rzeit
+// resume = { pos, left }: nach einer Pause an der gestoppten Stelle weiterspielen, nur noch die restliche Hörzeit
 
 async function playClip(card, onEnd, resume){
 
@@ -3036,9 +3036,9 @@ async function playClip(card, onEnd, resume){
 
 }
 
-/* Nach 3 Sekunden bei Spotify nachfragen, ob der Song wirklich lÃ¤uft.
+/* Nach 3 Sekunden bei Spotify nachfragen, ob der Song wirklich läuft.
 
-   'ok' = lÃ¤uft, 'track' = dieser Song spielt nicht (nÃ¤chsten nehmen), 'device' = auf dem GerÃ¤t lÃ¤uft gar nichts */
+   'ok' = läuft, 'track' = dieser Song spielt nicht (nächsten nehmen), 'device' = auf dem Gerät läuft gar nichts */
 
 async function clipCheck(card, tok){
 
@@ -3064,9 +3064,9 @@ async function clipCheck(card, tok){
 
 const silentText = () => {
 
-  const d = store.get('device', null), n = isSdkDev(d) ? 'diesem Browser' : d ? 'â€ž' + d.name + 'â€œ' : 'dem AbspielgerÃ¤t';
+  const d = store.get('device', null), n = isSdkDev(d) ? 'diesem Browser' : d ? '„' + d.name + '“' : 'dem Abspielgerät';
 
-  return 'Spotify meldet, dass auf ' + n + ' nichts lÃ¤uft. Ã–ffne dort Spotify, spiel kurz etwas an und versuch es nochmal. Unter Musik kannst du mit â€žGerÃ¤t testenâ€œ prÃ¼fen, ob der Ton ankommt, oder ein anderes GerÃ¤t wÃ¤hlen.';
+  return 'Spotify meldet, dass auf ' + n + ' nichts läuft. Öffne dort Spotify, spiel kurz etwas an und versuch es nochmal. Unter Musik kannst du mit „Gerät testen“ prüfen, ob der Ton ankommt, oder ein anderes Gerät wählen.';
 
 };
 
@@ -3094,7 +3094,7 @@ const COLORS = [
 
   { name:'Blau', adj:'blaues', bg:'#5B9BFF', fg:'#0B1E40' },
 
-  { name:'GrÃ¼n', adj:'grÃ¼nes', bg:'#4ED18A', fg:'#06301A' },
+  { name:'Grün', adj:'grünes', bg:'#4ED18A', fg:'#06301A' },
 
   { name:'Gelb', adj:'gelbes', bg:'#FFD23D', fg:'#3D3000' },
 
@@ -3104,7 +3104,7 @@ const COLORS = [
 
 ];
 
-const PART_NAMES = { year:'Jahr', decade:'Jahrzehnt', half:'Halbes Jahrzehnt', title:'Titel', artist:'KÃ¼nstler' };
+const PART_NAMES = { year:'Jahr', decade:'Jahrzehnt', half:'Halbes Jahrzehnt', title:'Titel', artist:'Künstler' };
 
 const one = (id, name, parts, join) => ({ id, name, kind:'one', parts, join:join || 'and' });
 
@@ -3112,41 +3112,41 @@ const BUILTIN = [
 
   one('y0', 'Erscheinungsjahr genau', [{ k:'year', tol:0 }]),
 
-  one('y1', 'Erscheinung Â± 1 Jahr', [{ k:'year', tol:1 }]),
+  one('y1', 'Erscheinung ± 1 Jahr', [{ k:'year', tol:1 }]),
 
-  one('y2', 'Erscheinung Â± 2 Jahre', [{ k:'year', tol:2 }]),
+  one('y2', 'Erscheinung ± 2 Jahre', [{ k:'year', tol:2 }]),
 
-  one('y3', 'Erscheinung Â± 3 Jahre', [{ k:'year', tol:3 }]),
+  one('y3', 'Erscheinung ± 3 Jahre', [{ k:'year', tol:3 }]),
 
-  one('y4', 'Erscheinung Â± 4 Jahre', [{ k:'year', tol:4 }]),
+  one('y4', 'Erscheinung ± 4 Jahre', [{ k:'year', tol:4 }]),
 
   one('ty', 'Titel oder Jahr', [{ k:'title' }, { k:'year', tol:0 }], 'or'),
 
-  one('tk', 'Titel oder KÃ¼nstler', [{ k:'title' }, { k:'artist' }], 'or'),
+  one('tk', 'Titel oder Künstler', [{ k:'title' }, { k:'artist' }], 'or'),
 
-  one('yk', 'Jahr oder KÃ¼nstler', [{ k:'year', tol:0 }, { k:'artist' }], 'or'),
+  one('yk', 'Jahr oder Künstler', [{ k:'year', tol:0 }, { k:'artist' }], 'or'),
 
   one('dec', 'Jahrzehnt', [{ k:'decade' }]),
 
   one('t', 'Titel', [{ k:'title' }]),
 
-  one('k', 'KÃ¼nstler', [{ k:'artist' }]),
+  one('k', 'Künstler', [{ k:'artist' }]),
 
-  one('tka', 'Titel und KÃ¼nstler', [{ k:'title' }, { k:'artist' }], 'and'),
+  one('tka', 'Titel und Künstler', [{ k:'title' }, { k:'artist' }], 'and'),
 
   one('tdec', 'Titel und Jahrzehnt', [{ k:'title' }, { k:'decade' }], 'and'),
 
   one('half', 'Halbes Jahrzehnt', [{ k:'half' }]),
 
-  { id:'older', name:'Welcher Song ist Ã¤lter?', kind:'two', two:{ k:'older' } },
+  { id:'older', name:'Welcher Song ist älter?', kind:'two', two:{ k:'older' } },
 
-  { id:'d1', name:'Abstand der Songs Â± 1 Jahr', kind:'two', two:{ k:'diff', tol:1 } },
+  { id:'d1', name:'Abstand der Songs ± 1 Jahr', kind:'two', two:{ k:'diff', tol:1 } },
 
-  { id:'d2', name:'Abstand der Songs Â± 2 Jahre', kind:'two', two:{ k:'diff', tol:2 } },
+  { id:'d2', name:'Abstand der Songs ± 2 Jahre', kind:'two', two:{ k:'diff', tol:2 } },
 
-  { id:'d3', name:'Abstand der Songs Â± 3 Jahre', kind:'two', two:{ k:'diff', tol:3 } },
+  { id:'d3', name:'Abstand der Songs ± 3 Jahre', kind:'two', two:{ k:'diff', tol:3 } },
 
-  { id:'d4', name:'Abstand der Songs Â± 4 Jahre', kind:'two', two:{ k:'diff', tol:4 } }
+  { id:'d4', name:'Abstand der Songs ± 4 Jahre', kind:'two', two:{ k:'diff', tol:4 } }
 
 ];
 
@@ -3180,13 +3180,13 @@ const levelOf = k => levels()[k] === 'adv' ? 'adv' : 'normal';
 
 const decadeOf = y => y < 1960 ? 'vor 1960' : Math.floor(y / 10) * 10 + 'er';
 
-const halfOf = y => { if (y < 1960) return 'vor 1960'; const s = Math.floor(y / 5) * 5; return s + 'â€“' + String(s + 4).slice(2); };
+const halfOf = y => { if (y < 1960) return 'vor 1960'; const s = Math.floor(y / 5) * 5; return s + '–' + String(s + 4).slice(2); };
 
 const DECADES = ['vor 1960', '1960er', '1970er', '1980er', '1990er', '2000er', '2010er', '2020er'];
 
-const HALVES = ['vor 1960', ...Array.from({ length:14 }, (_, i) => { const s = 1960 + i * 5; return s + 'â€“' + String(s + 4).slice(2); })];
+const HALVES = ['vor 1960', ...Array.from({ length:14 }, (_, i) => { const s = 1960 + i * 5; return s + '–' + String(s + 4).slice(2); })];
 
-const tolText = t => t ? ' (Â± ' + t + (t === 1 ? ' Jahr' : ' Jahre') + ' zÃ¤hlt)' : '';
+const tolText = t => t ? ' (± ' + t + (t === 1 ? ' Jahr' : ' Jahre') + ' zählt)' : '';
 
 // Wie viele Songs eine Aufgabe braucht: Vergleiche 2 oder 3, alles andere 1
 
@@ -3194,9 +3194,9 @@ const songsOf = task => task && task.kind === 'two' ? (task.two.n === 3 ? 3 : 2)
 
 const TWO_Q = {
 
-  2:{ older:'Welcher Song ist Ã¤lter?', younger:'Welcher Song ist neuer?' },
+  2:{ older:'Welcher Song ist älter?', younger:'Welcher Song ist neuer?' },
 
-  3:{ older:'Welcher Song ist der Ã¤lteste?', younger:'Welcher Song ist der neueste?' }
+  3:{ older:'Welcher Song ist der älteste?', younger:'Welcher Song ist der neueste?' }
 
 };
 
@@ -3222,20 +3222,21 @@ function needsInput(task, check){
 
 }
 
-/* Titel und KÃ¼nstler vergleichen.
+/* Titel und Künstler vergleichen.
 
-   ZusÃ¤tze wie â€ž- Remastered 2011â€œ, â€ž- Single Versionâ€œ, â€ž(feat. â€¦)â€œ oder â€ž[Live]â€œ gehÃ¶ren nicht zum Titel.
+   Zusätze wie „- Remastered 2011“, „- Single Version“, „(feat. …)“ oder „[Live]“ gehören nicht zum Titel.
 
-   GroÃŸ- und Kleinschreibung, Satzzeichen, Leerzeichen und Akzente zÃ¤hlen nie. */
+   Groß- und Kleinschreibung, Satzzeichen, Leerzeichen und Akzente zählen nie. */
 
-const stripExtras = s => String(s || '').replace(/\s+[-â€“â€”]\s+.*$/, '').replace(/\s*[(\[][^)\]]*[)\]]/g, '').replace(/\s+(feat|ft|featuring)\.?\s.*$/i, '').trim();
+const stripExtras = s => String(s || '').replace(/\s+[-–—]\s+.*$/, '').replace(/\s*[(\[][^)\]]*[)\]]/g, '').replace(/\s+(feat|ft|featuring)\.?\s.*$/i, '').trim();
 
 const canon = s => String(s || '').toLowerCase().normalize('NFD').replace(/[\u0300-\u036f]/g, '').replace(/\u00df/g, 'ss')
+
   .replace(/&/g, ' and ').replace(/\bund\b/g, ' and ').replace(/[^a-z0-9]+/g, '');
 
 function titleTargets(t){
 
-  const a = stripExtras(t), b = String(t || '').replace(/\s+[-â€“â€”]\s+.*$/, '').replace(/\s+(feat|ft|featuring)\.?\s.*$/i, '');
+  const a = stripExtras(t), b = String(t || '').replace(/\s+[-–—]\s+.*$/, '').replace(/\s+(feat|ft|featuring)\.?\s.*$/i, '');
 
   return [...new Set([a, b].map(canon).filter(Boolean))];
 
@@ -3293,7 +3294,7 @@ function lev(a, b){
 
 }
 
-/* VerknÃ¼pfung der Bausteine: frÃ¼her ein Wort fÃ¼r alle ('and'/'or'), jetzt auch je Verbindung eins (['or', 'and']) */
+/* Verknüpfung der Bausteine: früher ein Wort für alle ('and'/'or'), jetzt auch je Verbindung eins (['or', 'and']) */
 
 function joinsOf(task){
 
@@ -3307,7 +3308,7 @@ function joinsOf(task){
 
 const JOIN_WORD = { and:'und', or:'oder' };
 
-// â€ž(Titel oder KÃ¼nstler) und Jahrâ€œ: so wird bei gemischten VerknÃ¼pfungen gewertet
+// „(Titel oder Künstler) und Jahr“: so wird bei gemischten Verknüpfungen gewertet
 
 function joinGroups(names, js){
 
@@ -3353,7 +3354,7 @@ function evalTask(task, check, ans, cards, self){
 
     if (!(i >= 0 && i < n)) return out(false);
 
-    // Haben mehrere Songs dasselbe Jahr, zÃ¤hlt jeder davon als richtig
+    // Haben mehrere Songs dasselbe Jahr, zählt jeder davon als richtig
 
     return out(ys[i] === (k === 'older' ? Math.min(...ys) : Math.max(...ys)));
 
@@ -3383,7 +3384,7 @@ function evalTask(task, check, ans, cards, self){
 
   });
 
-  // Bausteine von links nach rechts verknÃ¼pfen. 2 = richtig, 1 = mit Tippfehlern richtig, 0 = falsch, null = Selbstbewertung fehlt
+  // Bausteine von links nach rechts verknüpfen. 2 = richtig, 1 = mit Tippfehlern richtig, 0 = falsch, null = Selbstbewertung fehlt
 
   const AND = (a, b) => a === 0 || b === 0 ? 0 : a === null || b === null ? null : Math.min(a, b);
 
@@ -3491,7 +3492,7 @@ function buildAnswerForm(task, check, box, opts = {}){
 
       if (p.k === 'title') { if (check === 'self') sayIt('den Titel'); else field('Titel', textIn('title', 'Songtitel')); }
 
-      if (p.k === 'artist') { if (check === 'self') sayIt('den KÃ¼nstler'); else field('KÃ¼nstler', textIn('artist', 'Name')); }
+      if (p.k === 'artist') { if (check === 'self') sayIt('den Künstler'); else field('Künstler', textIn('artist', 'Name')); }
 
     }
 
@@ -3499,7 +3500,7 @@ function buildAnswerForm(task, check, box, opts = {}){
 
     if (check !== 'self' && task.parts.some(p => p.k === 'title' || p.k === 'artist'))
 
-      form.append(txt('p', 'hint', check === 'fuzzy' ? 'Kleine Tippfehler sind erlaubt.' : 'ZusÃ¤tze wie â€žRemasteredâ€œ oder â€žSingle Versionâ€œ musst du nicht eintippen.'));
+      form.append(txt('p', 'hint', check === 'fuzzy' ? 'Kleine Tippfehler sind erlaubt.' : 'Zusätze wie „Remastered“ oder „Single Version“ musst du nicht eintippen.'));
 
     if (opts.songs > 1) form.append(txt('p', 'hint', 'Gemeint ist Song 1.'));
 
@@ -3527,7 +3528,7 @@ function makeGrid(){
 
 }
 
-/* 50 feste, zufÃ¤llig erzeugte Bingokarten. Jeder Spieler bekommt eine andere davon. */
+/* 50 feste, zufällig erzeugte Bingokarten. Jeder Spieler bekommt eine andere davon. */
 
 const CARD_POOL = (() => {
 
@@ -3585,7 +3586,7 @@ const ROWS = [0, 1, 2, 3, 4].map(r => [0, 1, 2, 3, 4].map(c => r * 5 + c));
 
 const COLS = [0, 1, 2, 3, 4].map(c => [0, 1, 2, 3, 4].map(r => r * 5 + c));
 
-const WIN_NAMES = { line:'Eine Reihe', cross:'Quer + lÃ¤ngs', full:'Volle Karte' };
+const WIN_NAMES = { line:'Eine Reihe', cross:'Quer + längs', full:'Volle Karte' };
 
 function bingoWon(marks, win){
 
@@ -3621,7 +3622,7 @@ function bingoMissing(marks, win){
 
 }
 
-/* ---------- HauptmenÃ¼ und Regeln ---------- */
+/* ---------- Hauptmenü und Regeln ---------- */
 
 const MODES = {
 
@@ -3631,7 +3632,7 @@ const MODES = {
 
   bingo:{ name:'Bingo', desc:'Eine Farbe bestimmt, was zum Song erraten wird.' },
 
-  solo:{ name:'Ohne Mitspieler', desc:'Nur Karte ziehen, hÃ¶ren und umdrehen.' }
+  solo:{ name:'Ohne Mitspieler', desc:'Nur Karte ziehen, hören und umdrehen.' }
 
 };
 
@@ -3675,11 +3676,11 @@ function setLevel(k, v){
 
     const p = M.pl[k];
 
-    // WÃ¤hrend einer laufenden Bingo-Runde gilt die neue Stufe erst ab der nÃ¤chsten Runde
+    // Während einer laufenden Bingo-Runde gilt die neue Stufe erst ab der nächsten Runde
 
     if (M.mode === 'bingo' && M.round && !['ready', 'over'].includes(M.phase)) {
 
-      if (v === p.lvl) delete p.lvlNext; else { p.lvlNext = v; toast(p.name + ' spielt ab der nÃ¤chsten Runde ' + LEVEL_NAMES[v] + '.'); }
+      if (v === p.lvl) delete p.lvlNext; else { p.lvlNext = v; toast(p.name + ' spielt ab der nächsten Runde ' + LEVEL_NAMES[v] + '.'); }
 
     } else { p.lvl = v; delete p.lvlNext; }
 
@@ -3715,7 +3716,7 @@ function drawLevels(box){
 
 /* Playlists pro Spieler (nur Zeitstrahl reihum). Gespeichert wird, was jemand NICHT bekommt,
 
-   damit neu gewÃ¤hlte Playlists automatisch bei allen dabei sind. */
+   damit neu gewählte Playlists automatisch bei allen dabei sind. */
 
 const plName = id => (playlists.find(p => p.id === id) || {}).name || 'Playlist';
 
@@ -3751,7 +3752,7 @@ function drawPlChoice(box, pool){
 
   box.append(Object.assign(txt('h2', '', 'Playlists pro Spieler'), { style:'margin:1rem 0 .3rem' }));
 
-  if (!pool.length) { box.append(txt('p', 'muted small', playlists.length ? 'WÃ¤hle unter Musik zuerst die Playlists aus, die ins Spiel kommen.' : 'Playlists werden geladen â€¦')); return; }
+  if (!pool.length) { box.append(txt('p', 'muted small', playlists.length ? 'Wähle unter Musik zuerst die Playlists aus, die ins Spiel kommen.' : 'Playlists werden geladen …')); return; }
 
   const seen = new Set(), list = playerList(room.players).filter(([, p]) => p.online !== false && !seen.has(nameKey(p.name)) && seen.add(nameKey(p.name)));
 
@@ -3779,7 +3780,7 @@ function drawPlChoice(box, pool){
 
   });
 
-  if (pool.length < 2) box.append(Object.assign(txt('p', 'muted small', 'Mit nur einer Playlist hÃ¶ren alle dieselben Songs. WÃ¤hle unter Musik mehrere aus.'), { style:'margin:.5rem 0 0' }));
+  if (pool.length < 2) box.append(Object.assign(txt('p', 'muted small', 'Mit nur einer Playlist hören alle dieselben Songs. Wähle unter Musik mehrere aus.'), { style:'margin:.5rem 0 0' }));
 
 }
 
@@ -3851,7 +3852,7 @@ function renderHome(){
 
   if (r.mode === 'bingo') box.append(colorCard());
 
-  // HÃ¶rzeit fÃ¼r diesen Modus. Gespeichert wird beim Schieben, ohne das MenÃ¼ neu zu zeichnen.
+  // Hörzeit für diesen Modus. Gespeichert wird beim Schieben, ohne das Menü neu zu zeichnen.
 
   {
 
@@ -3859,11 +3860,11 @@ function renderHome(){
 
     row.classList.add('col'); inp.type = 'range'; inp.min = 1; inp.max = 60; inp.step = 1; inp.id = 'hearRange'; inp.value = hearFor(r.mode);
 
-    inp.setAttribute('aria-label', 'HÃ¶rzeit in Sekunden');
+    inp.setAttribute('aria-label', 'Hörzeit in Sekunden');
 
     inp.oninput = () => { const v = Number(inp.value), cur = rules(); out.textContent = v + ' s'; store.set('rules', { ...cur, hear:{ ...(cur.hear || {}), [r.mode]:v } }); };
 
-    rg.append(inp, out); row.append(txt('span', '', 'HÃ¶rzeit'), rg); box.append(row);
+    rg.append(inp, out); row.append(txt('span', '', 'Hörzeit'), rg); box.append(row);
 
   }
 
@@ -3877,7 +3878,7 @@ function renderHome(){
 
     seg('Gewinn', 'win', Object.entries(WIN_NAMES), true);
 
-    seg('Titel und KÃ¼nstler', 'check', [['exact', 'Eintippen'], ['fuzzy', 'Eintippen ungenau'], ['self', 'Selbst']], true);
+    seg('Titel und Künstler', 'check', [['exact', 'Eintippen'], ['fuzzy', 'Eintippen ungenau'], ['self', 'Selbst']], true);
 
     sel('Zeit zum Antworten', 'answerSecs', [10, 15, 20, 30, 45, 60, 90], v => v + ' s');
 
@@ -3885,9 +3886,9 @@ function renderHome(){
 
   seg('Nach dem Aufdecken', 'auto', [[false, 'Selbst weiter'], [true, 'Automatisch']], true);
 
-  // â€žPlaylistsâ€œ steht direkt Ã¼ber der Zuteilung pro Spieler, zu der es gehÃ¶rt
+  // „Playlists“ steht direkt über der Zuteilung pro Spieler, zu der es gehört
 
-  if (r.mode === 'turns') seg('Playlists', 'plMode', [['same', 'FÃ¼r alle gleich'], ['each', 'Pro Spieler']], true);
+  if (r.mode === 'turns') seg('Playlists', 'plMode', [['same', 'Für alle gleich'], ['each', 'Pro Spieler']], true);
 
   if (r.mode === 'turns' && r.plMode === 'each') drawPlChoice(box, validSelection());
 
@@ -3895,21 +3896,21 @@ function renderHome(){
 
   const hints = {
 
-    turns:'Wer dran ist, kann schon wÃ¤hrend des Songs einordnen. Sobald er bestÃ¤tigt, wird aufgedeckt. Ein gleiches Jahr wie die Nachbarkarte zÃ¤hlt als richtig.' +
+    turns:'Wer dran ist, kann schon während des Songs einordnen. Sobald er bestätigt, wird aufgedeckt. Ein gleiches Jahr wie die Nachbarkarte zählt als richtig.' +
 
       (r.turnSecs ? ' Nach dem Song bleiben ' + r.turnSecs + ' Sekunden zum Einordnen, sonst ist die Karte weg.' : ''),
 
-    together:'Aufgedeckt wird, wenn die Zeit um ist. Ein gleiches Jahr wie die Nachbarkarte zÃ¤hlt als richtig. Alle starten mit derselben Karte. Erreichen mehrere in derselben Runde das Ziel, gibt es ein Stechen, bis einer als Einziger richtig liegt.',
+    together:'Aufgedeckt wird, wenn die Zeit um ist. Ein gleiches Jahr wie die Nachbarkarte zählt als richtig. Alle starten mit derselben Karte. Erreichen mehrere in derselben Runde das Ziel, gibt es ein Stechen, bis einer als Einziger richtig liegt.',
 
-    bingo:r.check === 'exact' ? 'Eintippen: Der Titel muss stimmen, ZusÃ¤tze wie â€žRemasteredâ€œ zÃ¤hlen nicht.' : r.check === 'fuzzy' ? 'Eintippen ungenau: Kleine Tippfehler wie â€žDiorr 2001â€œ zÃ¤hlen noch als richtig.' : 'Selbst: Titel und KÃ¼nstler sagt man laut und bewertet sich danach selbst.',
+    bingo:r.check === 'exact' ? 'Eintippen: Der Titel muss stimmen, Zusätze wie „Remastered“ zählen nicht.' : r.check === 'fuzzy' ? 'Eintippen ungenau: Kleine Tippfehler wie „Diorr 2001“ zählen noch als richtig.' : 'Selbst: Titel und Künstler sagt man laut und bewertet sich danach selbst.',
 
-    solo:'Keine Regeln. Du ziehst Karten, hÃ¶rst und drehst um.'
+    solo:'Keine Regeln. Du ziehst Karten, hörst und drehst um.'
 
   };
 
   if (r.mode === 'turns' && r.plMode === 'each') hints.turns += ' Pro Spieler: Jeder bekommt nur Songs aus den Playlists, die du ihm zuteilst.';
 
-  if (r.auto) hints[r.mode] += ' Automatisch: 5 Sekunden nach dem Aufdecken startet die nÃ¤chste Karte.';
+  if (r.auto) hints[r.mode] += ' Automatisch: 5 Sekunden nach dem Aufdecken startet die nächste Karte.';
 
   box.append(Object.assign(txt('p', 'muted small', hints[r.mode]), { style:'margin:.7rem 0 0' }));
 
@@ -3939,13 +3940,13 @@ function renderHome(){
 
 async function dropResume(){
 
-  if (!(await ask('Gespeichertes Spiel verwerfen? Es lÃ¤sst sich danach nicht mehr fortsetzen.', 'Verwerfen'))) return;
+  if (!(await ask('Gespeichertes Spiel verwerfen? Es lässt sich danach nicht mehr fortsetzen.', 'Verwerfen'))) return;
 
   store.del('match'); renderHome();
 
 }
 
-/* Bingo im HauptmenÃ¼: welche Farbe was abfragt, Normal und Fortgeschritten nebeneinander. Antippen Ã¶ffnet die Farben-Seite. */
+/* Bingo im Hauptmenü: welche Farbe was abfragt, Normal und Fortgeschritten nebeneinander. Antippen öffnet die Farben-Seite. */
 
 function colorCard(){
 
@@ -3953,7 +3954,7 @@ function colorCard(){
 
   const n = colorTasks('normal').map(taskById), a = colorTasks('adv').map(taskById);
 
-  b.innerHTML = '<span class="cbhead"><b>Farben und Aufgaben</b><span class="nav sm">Ã„ndern</span></span><span class="ctable"><span></span><span class="ch">Normal</span><span class="ch">Fortgeschritten</span>' +
+  b.innerHTML = '<span class="cbhead"><b>Farben und Aufgaben</b><span class="nav sm">Ändern</span></span><span class="ctable"><span></span><span class="ch">Normal</span><span class="ch">Fortgeschritten</span>' +
 
     COLORS.map((c, i) => '<span class="cp" style="background:' + c.bg + ';color:' + c.fg + '">' + c.name + '</span><span class="ct">' + esc(n[i].name) + '</span><span class="ct">' + esc(a[i].name) + '</span>').join('') + '</span>';
 
@@ -3963,9 +3964,9 @@ function colorCard(){
 
 function goFromHome(){
 
-  if (!validSelection().length) { toast(playlists.length ? 'WÃ¤hle unter Musik zuerst mindestens eine Playlist.' : 'Playlists werden noch geladen.'); return; }
+  if (!validSelection().length) { toast(playlists.length ? 'Wähle unter Musik zuerst mindestens eine Playlist.' : 'Playlists werden noch geladen.'); return; }
 
-  if (rules().mode !== 'solo' && selfPlay() && !selfActive()) { toast('Gib unter â€žHaupthandyâ€œ zuerst deinen Namen ein.'); const f = $('#selfName'); if (f) f.focus(); return; }
+  if (rules().mode !== 'solo' && selfPlay() && !selfActive()) { toast('Gib unter „Haupthandy“ zuerst deinen Namen ein.'); const f = $('#selfName'); if (f) f.focus(); return; }
 
   if (rules().mode === 'solo' || (room.code && onlineKeys().size)) { startMatch(); return; }
 
@@ -3975,7 +3976,7 @@ function goFromHome(){
 
 }
 
-/* Warteraum im HauptmenÃ¼: lÃ¤sst sich vor jedem Spiel Ã¶ffnen. Die Mitspieler warten dort, wÃ¤hrend Musik, Modus und Regeln eingestellt werden. */
+/* Warteraum im Hauptmenü: lässt sich vor jedem Spiel öffnen. Die Mitspieler warten dort, während Musik, Modus und Regeln eingestellt werden. */
 
 let roomOpening = false;
 
@@ -3985,9 +3986,9 @@ function renderRoomBox(){
 
   if (!room.code) {
 
-    box.innerHTML = '<div class="boxhead"><h2>Warteraum</h2></div><p class="muted small" style="margin:0 0 .7rem">Ã–ffne den Warteraum schon jetzt. Die Mitspieler kÃ¶nnen beitreten, wÃ¤hrend du Musik, Modus und Regeln einstellst. Das Spiel startet erst, wenn du es startest.</p>';
+    box.innerHTML = '<div class="boxhead"><h2>Warteraum</h2></div><p class="muted small" style="margin:0 0 .7rem">Öffne den Warteraum schon jetzt. Die Mitspieler können beitreten, während du Musik, Modus und Regeln einstellst. Das Spiel startet erst, wenn du es startest.</p>';
 
-    const b = txt('button', 'btn secondary', roomOpening ? 'Warteraum wird geÃ¶ffnet â€¦' : 'Warteraum Ã¶ffnen'); b.type = 'button'; b.id = 'roomOpen'; b.disabled = roomOpening;
+    const b = txt('button', 'btn secondary', roomOpening ? 'Warteraum wird geöffnet …' : 'Warteraum öffnen'); b.type = 'button'; b.id = 'roomOpen'; b.disabled = roomOpening;
 
     b.onclick = openLobby; box.append(b);
 
@@ -4007,7 +4008,7 @@ function renderRoomBox(){
 
   if (playerList(room.players).length) { const ppl = el('div', 'people'); drawPeople(ppl, room.players); box.append(ppl); }
 
-  // Schon vor dem Spiel: Spieler aus dem Warteraum entfernen, direkt im HauptmenÃ¼ (auch wenn das Haupthandy mitspielt)
+  // Schon vor dem Spiel: Spieler aus dem Warteraum entfernen, direkt im Hauptmenü (auch wenn das Haupthandy mitspielt)
 
   if (playerList(room.players).some(([uid]) => uid !== FB.uid)) {
 
@@ -4047,7 +4048,7 @@ function openColors(){
 
       const sw = el('span', 'sw'); sw.style.background = c.bg;
 
-      b.append(sw, txt('span', 'cn', c.name), txt('span', 'tn', taskById(ids[i]).name), txt('span', 'chev', 'â€º'));
+      b.append(sw, txt('span', 'cn', c.name), txt('span', 'tn', taskById(ids[i]).name), txt('span', 'chev', '›'));
 
       b.onclick = () => openPicker(i, lvl);
 
@@ -4061,7 +4062,7 @@ function openColors(){
 
 }
 
-/* Aufgabe fÃ¼r eine Farbe wÃ¤hlen: eigene Aufgaben oben, darunter die vorgegebenen */
+/* Aufgabe für eine Farbe wählen: eigene Aufgaben oben, darunter die vorgegebenen */
 
 function openPicker(ci, lvl){
 
@@ -4091,15 +4092,15 @@ function openPicker(ci, lvl){
 
     const b = el('button', 'pick' + (at === ci ? ' cur' : '')); b.type = 'button';
 
-    b.append(txt('span', 'pn', (at === ci ? 'âœ“ ' : '') + t.name));
+    b.append(txt('span', 'pn', (at === ci ? '✓ ' : '') + t.name));
 
     if (at >= 0 && at !== ci) b.append(txt('span', 'pt', 'bei ' + COLORS[at].name));
 
     if (t.id.startsWith('c') && !used.has(t.id)) {
 
-      const d = txt('span', 'del', 'Ã—'); d.setAttribute('role', 'button'); d.setAttribute('aria-label', t.name + ' lÃ¶schen');
+      const d = txt('span', 'del', '×'); d.setAttribute('role', 'button'); d.setAttribute('aria-label', t.name + ' löschen');
 
-      d.onclick = async ev => { ev.stopPropagation(); if (await ask('â€ž' + t.name + 'â€œ lÃ¶schen?', 'LÃ¶schen')) { store.set('tasks', customTasks().filter(x => x.id !== t.id)); openPicker(ci); } };
+      d.onclick = async ev => { ev.stopPropagation(); if (await ask('„' + t.name + '“ löschen?', 'Löschen')) { store.set('tasks', customTasks().filter(x => x.id !== t.id)); openPicker(ci); } };
 
       b.append(d);
 
@@ -4137,7 +4138,7 @@ function assignTask(ci, id, lvl){
 
 const builder = { kind:'one', joins:[], parts:[{ k:'year', tol:0 }], q:'older', tol:0 };
 
-const partName = p => PART_NAMES[p.k] + (p.k === 'year' && p.tol ? ' Â± ' + p.tol : '');
+const partName = p => PART_NAMES[p.k] + (p.k === 'year' && p.tol ? ' ± ' + p.tol : '');
 
 const listJoin = (a, w) => a.length < 2 ? a.join('') : a.slice(0, -1).join(', ') + ' ' + w + ' ' + a[a.length - 1];
 
@@ -4145,7 +4146,7 @@ function tolSelect(val, onPick){
 
   const s = el('select', 'field tolsel'); s.setAttribute('aria-label', 'Toleranz');
 
-  for (let i = 0; i <= 10; i++) { const o = el('option'); o.value = i; o.textContent = i ? 'Â± ' + i : 'genau'; s.append(o); }
+  for (let i = 0; i <= 10; i++) { const o = el('option'); o.value = i; o.textContent = i ? '± ' + i : 'genau'; s.append(o); }
 
   s.value = String(val || 0); s.onchange = () => onPick(Number(s.value));
 
@@ -4171,11 +4172,11 @@ function autoName(){
 
   if (b.kind === 'free') return $('#bText').value.trim().slice(0, 40) || 'Freie Aufgabe';
 
-  if (b.kind === 'two' && b.q === 'diff') return 'Abstand der Songs ' + (b.tol ? 'Â± ' + b.tol + (b.tol === 1 ? ' Jahr' : ' Jahre') : 'genau');
+  if (b.kind === 'two' && b.q === 'diff') return 'Abstand der Songs ' + (b.tol ? '± ' + b.tol + (b.tol === 1 ? ' Jahr' : ' Jahre') : 'genau');
 
-  if (b.kind === 'two') return 'Welcher von 2 Songs ist ' + (b.q === 'older' ? 'Ã¤lter' : 'neuer') + '?';
+  if (b.kind === 'two') return 'Welcher von 2 Songs ist ' + (b.q === 'older' ? 'älter' : 'neuer') + '?';
 
-  if (b.kind === 'three') return 'Welcher von 3 Songs ist der ' + (b.q === 'older' ? 'Ã¤lteste' : 'neueste') + '?';
+  if (b.kind === 'three') return 'Welcher von 3 Songs ist der ' + (b.q === 'older' ? 'älteste' : 'neueste') + '?';
 
   const names = b.parts.map(partName), js = b.joins.slice(0, names.length - 1);
 
@@ -4203,7 +4204,7 @@ function builderTask(){
 
   const js = b.joins.slice(0, b.parts.length - 1);
 
-  // Gleiche VerknÃ¼pfung Ã¼berall: wie bisher ein Wort. Gemischt: je Verbindung eins.
+  // Gleiche Verknüpfung überall: wie bisher ein Wort. Gemischt: je Verbindung eins.
 
   return { id:'', name, kind:'one', parts:b.parts.map(p => p.k === 'year' ? { k:'year', tol:p.tol || 0 } : { k:p.k }), join:js.every(j => j === js[0]) ? (js[0] || 'and') : js };
 
@@ -4215,7 +4216,7 @@ function drawBuilderParts(){
 
   builder.parts.forEach((p, i) => {
 
-    // Zwischen zwei Bausteinen jeweils â€žundâ€œ oder â€žoderâ€œ
+    // Zwischen zwei Bausteinen jeweils „und“ oder „oder“
 
     if (i > 0) {
 
@@ -4251,13 +4252,13 @@ function drawBuilderParts(){
 
     if (i > 0) {
 
-      const x = txt('button', 'x', 'Ã—'); x.type = 'button'; x.setAttribute('aria-label', 'Baustein ' + (i + 1) + ' entfernen');
+      const x = txt('button', 'x', '×'); x.type = 'button'; x.setAttribute('aria-label', 'Baustein ' + (i + 1) + ' entfernen');
 
       x.onclick = () => { builder.parts.splice(i, 1); builder.joins.splice(i - 1, 1); $('#bErr').textContent = ''; syncBuilder(); };
 
       row.append(x);
 
-    } else if (builder.parts.length > 1) row.append(Object.assign(txt('span', 'x', 'Ã—'), { style:'visibility:hidden' }));
+    } else if (builder.parts.length > 1) row.append(Object.assign(txt('span', 'x', '×'), { style:'visibility:hidden' }));
 
     box.append(row);
 
@@ -4329,7 +4330,7 @@ function saveBuilder(){
 
   if (t.kind === 'one' && new Set(t.parts.map(p => p.k)).size < t.parts.length) { err.textContent = 'Jeder Baustein darf nur einmal vorkommen.'; return; }
 
-  if (allTasks().some(x => x.name.toLowerCase() === t.name.toLowerCase())) { err.textContent = 'Eine Aufgabe mit dem Namen â€ž' + t.name + 'â€œ gibt es schon. Gib ihr einen anderen Namen.'; return; }
+  if (allTasks().some(x => x.name.toLowerCase() === t.name.toLowerCase())) { err.textContent = 'Eine Aufgabe mit dem Namen „' + t.name + '“ gibt es schon. Gib ihr einen anderen Namen.'; return; }
 
   t.id = 'c' + Date.now().toString(36);
 
@@ -4337,7 +4338,7 @@ function saveBuilder(){
 
   assignTask(pickColor, t.id);
 
-  toast('â€ž' + t.name + 'â€œ gespeichert und ' + COLORS[pickColor].name + ' (' + LEVEL_NAMES[pickLevel] + ') zugewiesen.');
+  toast('„' + t.name + '“ gespeichert und ' + COLORS[pickColor].name + ' (' + LEVEL_NAMES[pickLevel] + ') zugewiesen.');
 
   openColors();
 
@@ -4345,13 +4346,13 @@ function saveBuilder(){
 
 
 
-/* ---------- Song-GedÃ¤chtnis ----------
+/* ---------- Song-Gedächtnis ----------
 
-   Ein benanntes GedÃ¤chtnis (etwa â€žPiet & Lenaâ€œ) merkt sich jeden gespielten Song. Ist es beim Spielstart geladen,
+   Ein benanntes Gedächtnis (etwa „Piet & Lena“) merkt sich jeden gespielten Song. Ist es beim Spielstart geladen,
 
-   kommen diese Songs nicht mehr dran, in jedem Modus und Ã¼ber viele Spiele hinweg, bis es zurÃ¼ckgesetzt wird.
+   kommen diese Songs nicht mehr dran, in jedem Modus und über viele Spiele hinweg, bis es zurückgesetzt wird.
 
-   Ohne geladenes GedÃ¤chtnis lÃ¤uft alles wie immer. Gesichert wird es wie die Einstellungen. */
+   Ohne geladenes Gedächtnis läuft alles wie immer. Gesichert wird es wie die Einstellungen. */
 
 SYNC_KEYS.push('memories', 'memOn');
 
@@ -4371,7 +4372,7 @@ function memChange(id, fn){
 
 }
 
-// Gezogene Karte merken (k = SongschlÃ¼ssel aus Titel und KÃ¼nstler)
+// Gezogene Karte merken (k = Songschlüssel aus Titel und Künstler)
 
 function memRemember(id, k){ if (id && k) memChange(id, m => { if (!m.songs.includes(k)) m.songs.push(k); }); }
 
@@ -4383,11 +4384,11 @@ async function memReset(id){
 
   const m = memories().find(x => x.id === id); if (!m) return false;
 
-  if (!(await ask('GedÃ¤chtnis â€ž' + m.name + 'â€œ zurÃ¼cksetzen? Alle ' + m.songs.length + ' gespielten Songs kÃ¶nnen dann wieder drankommen.', 'ZurÃ¼cksetzen'))) return false;
+  if (!(await ask('Gedächtnis „' + m.name + '“ zurücksetzen? Alle ' + m.songs.length + ' gespielten Songs können dann wieder drankommen.', 'Zurücksetzen'))) return false;
 
   memChange(id, x => { x.songs = []; });
 
-  toast('â€ž' + m.name + 'â€œ ist zurÃ¼ckgesetzt.');
+  toast('„' + m.name + '“ ist zurückgesetzt.');
 
   renderMemBox(); if (!$('#peek').hidden && $('#memNew')) memSheet();
 
@@ -4415,41 +4416,41 @@ function renderMemBox(){
 
   const b = txt('button', 'nav sm', m ? 'Wechseln' : 'Laden'); b.type = 'button'; b.id = 'memOpen'; b.onclick = memSheet;
 
-  head.append(txt('h2', '', 'Song-GedÃ¤chtnis'), b); box.append(head);
+  head.append(txt('h2', '', 'Song-Gedächtnis'), b); box.append(head);
 
   if (!m) {
 
-    box.append(Object.assign(txt('p', 'muted small', 'Spielst du Ã¶fter mit denselben Leuten? Lade ihr GedÃ¤chtnis, dann kommt kein Song doppelt, auch nicht Ã¼ber mehrere Spiele hinweg. Ohne GedÃ¤chtnis lÃ¤uft alles wie immer.'), { style:'margin:0' }));
+    box.append(Object.assign(txt('p', 'muted small', 'Spielst du öfter mit denselben Leuten? Lade ihr Gedächtnis, dann kommt kein Song doppelt, auch nicht über mehrere Spiele hinweg. Ohne Gedächtnis läuft alles wie immer.'), { style:'margin:0' }));
 
     return;
 
   }
 
-  const p = el('p'); p.style.margin = '0'; p.append('â€ž', txt('b', '', m.name), 'â€œ ist geladen.');
+  const p = el('p'); p.style.margin = '0'; p.append('„', txt('b', '', m.name), '“ ist geladen.');
 
-  box.append(p, Object.assign(txt('p', 'muted small', songsWord(m.songs.length) + ' schon gespielt. Sie kommen nicht mehr dran, bis du zurÃ¼cksetzt.'), { id:'memInfo', style:'margin:.2rem 0 .7rem' }));
+  box.append(p, Object.assign(txt('p', 'muted small', songsWord(m.songs.length) + ' schon gespielt. Sie kommen nicht mehr dran, bis du zurücksetzt.'), { id:'memInfo', style:'margin:.2rem 0 .7rem' }));
 
   const row = el('div'); row.style.cssText = 'display:flex;flex-wrap:wrap;gap:.4rem';
 
-  const r = txt('button', 'nav sm', 'ZurÃ¼cksetzen'); r.type = 'button'; r.id = 'memReset'; r.onclick = () => memReset(m.id);
+  const r = txt('button', 'nav sm', 'Zurücksetzen'); r.type = 'button'; r.id = 'memReset'; r.onclick = () => memReset(m.id);
 
-  const off = txt('button', 'nav sm', 'Ohne GedÃ¤chtnis spielen'); off.type = 'button'; off.id = 'memOff'; off.onclick = () => setMemOn(null);
+  const off = txt('button', 'nav sm', 'Ohne Gedächtnis spielen'); off.type = 'button'; off.id = 'memOff'; off.onclick = () => setMemOn(null);
 
   row.append(r, off); box.append(row);
 
 }
 
-// GedÃ¤chtnis wÃ¤hlen, neu anlegen oder lÃ¶schen
+// Gedächtnis wählen, neu anlegen oder löschen
 
 function memSheet(){
 
-  $('#peekTitle').textContent = 'Song-GedÃ¤chtnis';
+  $('#peekTitle').textContent = 'Song-Gedächtnis';
 
   const body = $('#peekBody'); body.innerHTML = '';
 
   const cur = store.get('memOn', null), list = memories();
 
-  body.append(Object.assign(txt('p', 'muted small', 'Lege fÃ¼r jede Runde, mit der du Ã¶fter spielst, ein eigenes GedÃ¤chtnis an. Geladen ist immer nur eins.'), { style:'margin:0 0 .6rem' }));
+  body.append(Object.assign(txt('p', 'muted small', 'Lege für jede Runde, mit der du öfter spielst, ein eigenes Gedächtnis an. Geladen ist immer nur eins.'), { style:'margin:0 0 .6rem' }));
 
   if (list.length) {
 
@@ -4459,15 +4460,15 @@ function memSheet(){
 
       const on = m.id === cur, row = el('button', 'pick' + (on ? ' cur' : '')); row.type = 'button';
 
-      row.append(txt('span', 'pn', (on ? 'âœ“ ' : '') + m.name), txt('span', 'pt', songsWord(m.songs.length) + ' gespielt'));
+      row.append(txt('span', 'pn', (on ? '✓ ' : '') + m.name), txt('span', 'pt', songsWord(m.songs.length) + ' gespielt'));
 
-      const d = txt('span', 'del', 'Ã—'); d.setAttribute('role', 'button'); d.setAttribute('aria-label', m.name + ' lÃ¶schen');
+      const d = txt('span', 'del', '×'); d.setAttribute('role', 'button'); d.setAttribute('aria-label', m.name + ' löschen');
 
       d.onclick = async ev => {
 
         ev.stopPropagation();
 
-        if (!(await ask('GedÃ¤chtnis â€ž' + m.name + 'â€œ lÃ¶schen? Die Liste der gespielten Songs ist dann weg.', 'LÃ¶schen'))) return;
+        if (!(await ask('Gedächtnis „' + m.name + '“ löschen? Die Liste der gespielten Songs ist dann weg.', 'Löschen'))) return;
 
         store.set('memories', memories().filter(x => x.id !== m.id));
 
@@ -4479,7 +4480,7 @@ function memSheet(){
 
       row.append(d);
 
-      row.onclick = () => { setMemOn(m.id); $('#peek').hidden = true; toast('â€ž' + m.name + 'â€œ ist geladen.'); };
+      row.onclick = () => { setMemOn(m.id); $('#peek').hidden = true; toast('„' + m.name + '“ ist geladen.'); };
 
       lb.append(row);
 
@@ -4489,7 +4490,7 @@ function memSheet(){
 
   }
 
-  const lab = txt('label', '', 'Neues GedÃ¤chtnis'); lab.htmlFor = 'memNew'; lab.style.cssText = 'display:block;font-weight:700;margin:1rem 0 .35rem';
+  const lab = txt('label', '', 'Neues Gedächtnis'); lab.htmlFor = 'memNew'; lab.style.cssText = 'display:block;font-weight:700;margin:1rem 0 .35rem';
 
   const inp = el('input', 'field'); inp.id = 'memNew'; inp.maxLength = 30; inp.autocomplete = 'off'; inp.placeholder = 'z. B. Piet & Lena'; inp.setAttribute('autocapitalize', 'words');
 
@@ -4507,7 +4508,7 @@ function memSheet(){
 
     store.set('memories', [...memories(), m]); setMemOn(m.id);
 
-    $('#peek').hidden = true; toast('â€ž' + name + 'â€œ ist angelegt und geladen.');
+    $('#peek').hidden = true; toast('„' + name + '“ ist angelegt und geladen.');
 
   };
 
@@ -4517,7 +4518,7 @@ function memSheet(){
 
   if (cur) {
 
-    const off = txt('button', 'link', 'Ohne GedÃ¤chtnis spielen'); off.type = 'button'; off.style.cssText = 'display:block;margin:.6rem auto 0';
+    const off = txt('button', 'link', 'Ohne Gedächtnis spielen'); off.type = 'button'; off.style.cssText = 'display:block;margin:.6rem auto 0';
 
     off.onclick = () => { setMemOn(null); $('#peek').hidden = true; };
 
@@ -4593,17 +4594,17 @@ async function openLobby(){
 
   const mode = MODES[running() ? M.mode : rules().mode].name;
 
-  $('#lobbyMode').textContent = running() ? 'LÃ¤uft gerade: ' + mode : 'Als NÃ¤chstes: ' + mode;
+  $('#lobbyMode').textContent = running() ? 'Läuft gerade: ' + mode : 'Als Nächstes: ' + mode;
 
-  $('#lobbyStart').textContent = running() ? 'ZurÃ¼ck zum Spiel' : mode + ' starten';
+  $('#lobbyStart').textContent = running() ? 'Zurück zum Spiel' : mode + ' starten';
 
   $('#lobbySettings').hidden = running();
 
   if (room.code) { pushState(); drawLobby(); return; }
 
-  $('#roomCode').textContent = 'Â·Â·Â·Â·'; $('#qrBox').innerHTML = '';
+  $('#roomCode').textContent = '····'; $('#qrBox').innerHTML = '';
 
-  $('#lobbyInfo').textContent = 'Warteraum wird geÃ¶ffnet â€¦';
+  $('#lobbyInfo').textContent = 'Warteraum wird geöffnet …';
 
   roomOpening = true;
 
@@ -4655,7 +4656,7 @@ function drawPeople(box, players, meKey, onTap, onKick){
 
     const kick = onKick && uid !== FB.uid;
 
-    const s = txt(onTap || kick ? 'button' : 'span', 'person' + (p.online === false ? ' off' : '') + (k === meKey ? ' me' : '') + (kick ? ' kick' : ''), p.name + (kick ? ' Ã—' : ''));
+    const s = txt(onTap || kick ? 'button' : 'span', 'person' + (p.online === false ? ' off' : '') + (k === meKey ? ' me' : '') + (kick ? ' kick' : ''), p.name + (kick ? ' ×' : ''));
 
     s.title = kick ? p.name + ' entfernen' : p.online === false ? 'nicht verbunden' : 'verbunden';
 
@@ -4669,9 +4670,9 @@ function drawPeople(box, players, meKey, onTap, onKick){
 
 }
 
-/* Spieler entfernen (nur Haupthandy): Der Eintrag wird gelÃ¶scht und das Handy des Spielers merkt, dass es entfernt wurde.
+/* Spieler entfernen (nur Haupthandy): Der Eintrag wird gelöscht und das Handy des Spielers merkt, dass es entfernt wurde.
 
-   Ein entfernter Spieler kommt nur zurÃ¼ck, wenn er selbst neu beitritt. */
+   Ein entfernter Spieler kommt nur zurück, wenn er selbst neu beitritt. */
 
 function withoutKicked(all){
 
@@ -4695,7 +4696,7 @@ function withoutKicked(all){
 
 async function kickPlayer(uid, name){
 
-  if (!(await ask('â€ž' + name + 'â€œ aus dem Warteraum entfernen? Fehlt er gerade im Spiel, fÃ¤llt er auch dort raus und kommt nicht mehr dran.', 'Entfernen'))) return;
+  if (!(await ask('„' + name + '“ aus dem Warteraum entfernen? Fehlt er gerade im Spiel, fällt er auch dort raus und kommt nicht mehr dran.', 'Entfernen'))) return;
 
   room.kicked[uid] = fbNow();
 
@@ -4777,7 +4778,7 @@ async function closeRoom(){
 
   if (!room.code) { openHome(); return; }
 
-  if (!(await ask('Warteraum ' + room.code + ' schlieÃŸen? Alle Mitspieler fliegen raus.', 'SchlieÃŸen'))) return;
+  if (!(await ask('Warteraum ' + room.code + ' schließen? Alle Mitspieler fliegen raus.', 'Schließen'))) return;
 
   const code = room.code;
 
@@ -4807,7 +4808,7 @@ async function closeRoom(){
 
    Dieses Handy ist Haupthandy und zugleich ein ganz normaler Spieler. Es hat dann keine Sonderrechte:
 
-   Weiterklicken und Karte ziehen macht jeder an seinem eigenen Handy. Gilt nur fÃ¼r dieses GerÃ¤t. */
+   Weiterklicken und Karte ziehen macht jeder an seinem eigenen Handy. Gilt nur für dieses Gerät. */
 
 function selfPlay(){ const s = store.get('selfPlay', null); return s && s.on ? { on:true, name:String(s.name || '').trim() } : null; }
 
@@ -4821,7 +4822,7 @@ function renderHostBox(){
 
   const box = $('#hostBox'), s = store.get('selfPlay', null) || {}, on = !!s.on;
 
-  // Nicht neu zeichnen, wÃ¤hrend jemand den Namen tippt
+  // Nicht neu zeichnen, während jemand den Namen tippt
 
   if (document.activeElement && document.activeElement.id === 'selfName') return;
 
@@ -4861,7 +4862,7 @@ function renderHostBox(){
 
     ? 'Dieses Handy steuert das Spiel und du spielst ganz normal mit. Du hast keine Sonderrechte: Karte ziehen und weiterklicken macht jeder an seinem eigenen Handy.'
 
-    : 'Das Haupthandy liegt fÃ¼r alle sichtbar in der Mitte. Von hier aus lÃ¤sst sich das Spiel steuern und weiterklicken.'), { style:'margin:.6rem 0 0' }));
+    : 'Das Haupthandy liegt für alle sichtbar in der Mitte. Von hier aus lässt sich das Spiel steuern und weiterklicken.'), { style:'margin:.6rem 0 0' }));
 
 }
 
@@ -4941,7 +4942,7 @@ function dropSelf(){
 
 }
 
-// Spielansicht: in der Mitte die groÃŸe Ansicht, beim Mitspielen die Spieleransicht mit einer kleinen Haupthandy-Leiste
+// Spielansicht: in der Mitte die große Ansicht, beim Mitspielen die Spieleransicht mit einer kleinen Haupthandy-Leiste
 
 function showGame(){
 
@@ -4999,7 +5000,7 @@ function renderAdmin(){
 
   const nb = (label, fn, cls) => { const b = txt('button', 'nav' + (cls ? ' ' + cls : ''), label); b.type = 'button'; b.onclick = fn; bar.append(b); return b; };
 
-  if (M.phase !== 'over') { if (M.paused) nb('â–¶ Play', resumeGame, 'done'); else if (canPause()) nb('âšâš Pause', pauseGame); }
+  if (M.phase !== 'over') { if (M.paused) nb('▶ Play', resumeGame, 'done'); else if (canPause()) nb('❚❚ Pause', pauseGame); }
 
   nb('Raum ' + room.code + ' (' + onlineKeys().size + ')', openLobby);
 
@@ -5013,7 +5014,7 @@ function renderAdmin(){
 
   if (M.phase === 'over') {
 
-    const b1 = txt('button', 'btn primary', 'ZurÃ¼ck in den Warteraum'); b1.type = 'button'; b1.onclick = endMatchToHome;
+    const b1 = txt('button', 'btn primary', 'Zurück in den Warteraum'); b1.type = 'button'; b1.onclick = endMatchToHome;
 
     const b2 = txt('button', 'btn secondary', 'Nochmal spielen: ' + MODES[M.mode].name); b2.type = 'button'; b2.onclick = playAgain;
 
@@ -5031,7 +5032,7 @@ function kickSheet(){
 
   const body = $('#peekBody'); body.innerHTML = '';
 
-  if (!playerList(room.players).some(([uid]) => uid !== FB.uid)) { body.append(txt('p', 'muted', 'AuÃŸer dir ist niemand im Raum.')); $('#peek').hidden = false; return; }
+  if (!playerList(room.players).some(([uid]) => uid !== FB.uid)) { body.append(txt('p', 'muted', 'Außer dir ist niemand im Raum.')); $('#peek').hidden = false; return; }
 
   body.append(txt('p', 'muted small', 'Tippe auf einen Namen, um ihn aus dem Spiel und dem Warteraum zu entfernen.'));
 
@@ -5045,7 +5046,7 @@ function kickSheet(){
 
 }
 
-// WÃ¤hrend eines Spiels in der Mitte doch selbst mitspielen
+// Während eines Spiels in der Mitte doch selbst mitspielen
 
 function selfJoinSheet(){
 
@@ -5119,7 +5120,7 @@ function levelsInPlay(){
 
 }
 
-// k: fÃ¼r wen die Karte ist. Bei â€žPlaylists pro Spielerâ€œ kommen nur Songs aus seinen Playlists.
+// k: für wen die Karte ist. Bei „Playlists pro Spieler“ kommen nur Songs aus seinen Playlists.
 
 function takeCard(k){
 
@@ -5139,7 +5140,7 @@ function takeCard(k){
 
     shuffle(d.cards); d.pos = 0;
 
-    if (M.mem) toast('Alle Songs, die mit diesem GedÃ¤chtnis noch Ã¼brig waren, sind durch. Ab jetzt kÃ¶nnen sich Songs wiederholen.');
+    if (M.mem) toast('Alle Songs, die mit diesem Gedächtnis noch übrig waren, sind durch. Ab jetzt können sich Songs wiederholen.');
 
     else toast(ok && d.cards.some(c => !fits(c)) ? 'Alle Songs aus den Playlists von ' + ((M.pl[k] && M.pl[k].name) || 'diesem Spieler') + ' waren dran. Der Stapel ist neu gemischt.' : 'Alle Karten waren dran. Der Stapel ist neu gemischt.');
 
@@ -5165,7 +5166,7 @@ function dropCard(c){
 
   const d = M.deck, i = d.cards.findIndex(x => x.uri === c.uri);
 
-  // Ein Song, der sich nicht abspielen lieÃŸ, zÃ¤hlt nicht als gespielt
+  // Ein Song, der sich nicht abspielen ließ, zählt nicht als gespielt
 
   if (M.mem) memForget(M.mem, c.k);
 
@@ -5253,7 +5254,7 @@ function syncPlayers(){
 
 /* Reihenfolge: Wer im Spiel ist, kommt dran, auch wenn sein Handy gerade nicht verbunden ist (etwa weil er kurz aus Safari raus ist).
 
-   Ãœbersprungen wird nur, wer das Spiel verlassen hat oder vom Haupthandy entfernt wurde. */
+   Übersprungen wird nur, wer das Spiel verlassen hat oder vom Haupthandy entfernt wurde. */
 
 function nextTurn(from, includeSelf){
 
@@ -5273,7 +5274,7 @@ async function startMatch(){
 
   const r = rules(), ids = validSelection();
 
-  if (!ids.length) { toast('WÃ¤hle unter Musik zuerst mindestens eine Playlist.'); return; }
+  if (!ids.length) { toast('Wähle unter Musik zuerst mindestens eine Playlist.'); return; }
 
   activateSdk();
 
@@ -5285,7 +5286,7 @@ async function startMatch(){
 
         deck:{ cards:[], pos:0 }, pl:{}, order:[], turn:null, lastTurn:null, cards:[], songIdx:0,
 
-        color:null, timer:null, winners:[], revealed:false, newCard:null, msg:'Songs werden geladen â€¦', intro:introData(r) };
+        color:null, timer:null, winners:[], revealed:false, newCard:null, msg:'Songs werden geladen …', intro:introData(r) };
 
   const mm = M, t0 = Date.now();
 
@@ -5301,9 +5302,9 @@ async function startMatch(){
 
     if (M.mode !== 'solo') cards = cards.filter(c => /^\d{4}$/.test(c.year));
 
-    if (cards.length < (M.mode === 'solo' ? 1 : 4)) throw new UserError('In den gewÃ¤hlten Playlists gibt es zu wenige abspielbare Songs.');
+    if (cards.length < (M.mode === 'solo' ? 1 : 4)) throw new UserError('In den gewählten Playlists gibt es zu wenige abspielbare Songs.');
 
-    // Song-GedÃ¤chtnis: schon gespielte Songs bleiben drauÃŸen. Sind (fast) alle durch, fragen.
+    // Song-Gedächtnis: schon gespielte Songs bleiben draußen. Sind (fast) alle durch, fragen.
 
     let memNote = '';
 
@@ -5315,21 +5316,21 @@ async function startMatch(){
 
       if (fresh.length < (M.mode === 'solo' ? 1 : 4)) {
 
-        const left = fresh.length ? 'sind von ' + cards.length + ' Songs der gewÃ¤hlten Playlists nur noch ' + fresh.length + ' Ã¼brig, zu wenig fÃ¼r ein Spiel.' : 'sind alle ' + cards.length + ' Songs der gewÃ¤hlten Playlists schon gespielt.';
+        const left = fresh.length ? 'sind von ' + cards.length + ' Songs der gewählten Playlists nur noch ' + fresh.length + ' übrig, zu wenig für ein Spiel.' : 'sind alle ' + cards.length + ' Songs der gewählten Playlists schon gespielt.';
 
-        const reset = await ask('Mit dem GedÃ¤chtnis â€ž' + mem.name + 'â€œ ' + left + ' GedÃ¤chtnis zurÃ¼cksetzen und alle Songs wieder freigeben?', 'ZurÃ¼cksetzen und spielen');
+        const reset = await ask('Mit dem Gedächtnis „' + mem.name + '“ ' + left + ' Gedächtnis zurücksetzen und alle Songs wieder freigeben?', 'Zurücksetzen und spielen');
 
         if (M !== mm) return;
 
-        if (!reset) { hideIntro(); M = null; store.del('match'); pushState(); openHome(); toast('WÃ¤hle unter Musik andere Playlists oder setze das GedÃ¤chtnis zurÃ¼ck.'); return; }
+        if (!reset) { hideIntro(); M = null; store.del('match'); pushState(); openHome(); toast('Wähle unter Musik andere Playlists oder setze das Gedächtnis zurück.'); return; }
 
         memChange(mem.id, x => { x.songs = []; });
 
-        memNote = 'â€ž' + mem.name + 'â€œ ist zurÃ¼ckgesetzt. ';
+        memNote = '„' + mem.name + '“ ist zurückgesetzt. ';
 
       } else {
 
-        if (fresh.length < cards.length) memNote = songsWord(cards.length - fresh.length) + ' schon gespielt und Ã¼bersprungen. ';
+        if (fresh.length < cards.length) memNote = songsWord(cards.length - fresh.length) + ' schon gespielt und übersprungen. ';
 
         cards = fresh;
 
@@ -5339,7 +5340,7 @@ async function startMatch(){
 
     }
 
-    // Startkarten und die ersten Songs schon wÃ¤hrend der Ãœbersicht auf das Originaljahr prÃ¼fen
+    // Startkarten und die ersten Songs schon während der Übersicht auf das Originaljahr prüfen
 
     const early = cards.slice(0, Math.min(cards.length, (M.mode === 'solo' ? 0 : onlineKeys().size + 1) + 4));
 
@@ -5347,7 +5348,7 @@ async function startMatch(){
 
     if (M !== mm) return;
 
-    // Die Ãœbersicht bleibt mindestens ihre volle Zeit stehen, auch wenn die Songs schon fertig geladen sind
+    // Die Übersicht bleibt mindestens ihre volle Zeit stehen, auch wenn die Songs schon fertig geladen sind
 
     const wait = mm.intro.ms - (Date.now() - t0);
 
@@ -5373,7 +5374,7 @@ async function startMatch(){
 
 }
 
-/* Ãœbersicht vor dem Spielstart: Modus, Ziel, Spieler. LÃ¤uft am Haupthandy und auf den Spielerhandys. */
+/* Übersicht vor dem Spielstart: Modus, Ziel, Spieler. Läuft am Haupthandy und auf den Spielerhandys. */
 
 const INTRO_MS = typeof window.PQ_INTRO_MS === 'number' ? window.PQ_INTRO_MS : 6000;
 
@@ -5391,7 +5392,7 @@ function introData(r){
 
   if (r.mode === 'bingo') goal.push(['big', 'Ziel: ' + WIN_NAMES[r.win]]);
 
-  goal.push(['', hearFor(r.mode) + ' s HÃ¶rzeit']);
+  goal.push(['', hearFor(r.mode) + ' s Hörzeit']);
 
   if (r.mode === 'turns') goal.push(['', r.turnSecs ? r.turnSecs + ' s zum Einordnen' : 'Einordnen ohne Zeitlimit']);
 
@@ -5401,7 +5402,7 @@ function introData(r){
 
   const mem = memActive();
 
-  if (mem) goal.push(['', 'GedÃ¤chtnis: ' + mem.name]);
+  if (mem) goal.push(['', 'Gedächtnis: ' + mem.name]);
 
   return { mode:r.mode, goal, ppl, ms:INTRO_MS };
 
@@ -5415,7 +5416,7 @@ function introHtml(d){
 
     : ppl.map((p, i) => '<span class="ipp' + (turns && !i ? ' first' : '') + '" style="--i:' + i + '">' + esc(p.n) +
 
-        (turns && !i ? ' <small>fÃ¤ngt an</small>' : p.l ? ' <small>Fortg.</small>' : '') + '</span>').join('');
+        (turns && !i ? ' <small>fängt an</small>' : p.l ? ' <small>Fortg.</small>' : '') + '</span>').join('');
 
   return '<div class="introcard" style="--ms:' + Math.max(400, d.ms || 6000) + 'ms">' +
 
@@ -5423,7 +5424,7 @@ function introHtml(d){
 
     '<div class="ieq" aria-hidden="true">' + '<i></i>'.repeat(7) + '</div>' +
 
-    '<p class="ikick">Gleich gehtâ€™s los' + (ppl.length ? ' Â· ' + ppl.length + (ppl.length === 1 ? ' Spieler' : ' Spieler') : '') + '</p>' +
+    '<p class="ikick">Gleich geht’s los' + (ppl.length ? ' · ' + ppl.length + (ppl.length === 1 ? ' Spieler' : ' Spieler') : '') + '</p>' +
 
     '<h2 class="imode">' + esc(MODES[d.mode].name) + '</h2>' +
 
@@ -5431,7 +5432,7 @@ function introHtml(d){
 
     '<div class="ippl">' + chips + '</div>' +
 
-    '<div class="ibar"><i></i></div><div class="imsg"><span>Playlists werden gemischt â€¦</span><span>Karten werden verteilt â€¦</span><span>Plattenspieler lÃ¤uft warm â€¦</span></div></div>';
+    '<div class="ibar"><i></i></div><div class="imsg"><span>Playlists werden gemischt …</span><span>Karten werden verteilt …</span><span>Plattenspieler läuft warm …</span></div></div>';
 
 }
 
@@ -5443,7 +5444,7 @@ function showIntro(d){
 
   o.classList.remove('out'); o.innerHTML = introHtml(d); o.hidden = false;
 
-  // Abbrechen geht auch wÃ¤hrend der Ãœbersicht, sonst liegt sie Ã¼ber allen KnÃ¶pfen
+  // Abbrechen geht auch während der Übersicht, sonst liegt sie über allen Knöpfen
 
   const b = txt('button', 'link icancel', 'Abbrechen'); b.type = 'button'; b.onclick = endMatchToHome;
 
@@ -5551,7 +5552,7 @@ function tick(){
 
     if (f) f.style.width = (100 * Math.min(1, 1 - left / t.total)).toFixed(1) + '%';
 
-    if (s) s.textContent = 'NÃ¤chste Karte in ' + Math.ceil(left / 1000) + ' s';
+    if (s) s.textContent = 'Nächste Karte in ' + Math.ceil(left / 1000) + ' s';
 
     if (left <= 0) { M.timer = null; if (M.phase === 'reveal' && M.auto) autoAdvance(); else { renderMatch(); pushState(); } }
 
@@ -5623,7 +5624,7 @@ async function drawRound(){
 
   for (let i = 0; i < n; i++) { const c = takeCard(drawKey()); if (!c) { showMsg('Im Stapel sind keine Songs mehr.'); return; } M.cards.push(c); }
 
-  M.phase = 'loading'; M.msg = 'Song wird gestartet â€¦'; renderMatch(); pushState();
+  M.phase = 'loading'; M.msg = 'Song wird gestartet …'; renderMatch(); pushState();
 
   try { await startSong(0); }
 
@@ -5639,7 +5640,7 @@ async function startSong(i){
 
     const c = M.cards[i];
 
-    // Originaljahr prÃ¼fen, bevor der Song lÃ¤uft (meist schon im Hintergrund erledigt)
+    // Originaljahr prüfen, bevor der Song läuft (meist schon im Hintergrund erledigt)
 
     await Promise.race([verifyYear(c), sleep(1500)]);
 
@@ -5675,7 +5676,7 @@ async function startSong(i){
 
       if (res.tok !== clip.token || !M || M.phase !== 'playing') return;
 
-      // LÃ¤uft gar nichts oder dreimal hintereinander nicht, liegt es am GerÃ¤t: anhalten und Bescheid sagen, statt still Karten zu verbrauchen
+      // Läuft gar nichts oder dreimal hintereinander nicht, liegt es am Gerät: anhalten und Bescheid sagen, statt still Karten zu verbrauchen
 
       if (r === 'device' || ++badRun >= 3) {
 
@@ -5689,7 +5690,7 @@ async function startSong(i){
 
       dropCard(c); const nc = takeCard(drawKey()); if (!nc) return;
 
-      M.cards[i] = nc; M.phase = 'loading'; M.msg = 'NÃ¤chster Versuch â€¦'; renderMatch();
+      M.cards[i] = nc; M.phase = 'loading'; M.msg = 'Nächster Versuch …'; renderMatch();
 
       startSong(i).catch(e => { M.phase = 'ready'; M.round--; renderMatch(); pushState(); handleError(e, drawRound); });
 
@@ -5699,7 +5700,7 @@ async function startSong(i){
 
   }
 
-  throw new UserError('Vier Songs hintereinander lieÃŸen sich nicht abspielen. PrÃ¼fe, ob Spotify auf dem AbspielgerÃ¤t lÃ¤uft.');
+  throw new UserError('Vier Songs hintereinander ließen sich nicht abspielen. Prüfe, ob Spotify auf dem Abspielgerät läuft.');
 
 }
 
@@ -5709,7 +5710,7 @@ function songEnded(i){
 
   if (i < M.cards.length - 1) {
 
-    // Kurze Pause, dann der nÃ¤chste Song. Die Pause lÃ¤sst sich mit â€žâšâš Pauseâ€œ anhalten.
+    // Kurze Pause, dann der nächste Song. Die Pause lässt sich mit „❚❚ Pause“ anhalten.
 
     M.gap = true; setTimer('gap', SONG_GAP); saveMatch(); pushState(); renderMatch();
 
@@ -5729,7 +5730,7 @@ function nextSongAfterGap(){
 
   const i = M.songIdx;
 
-  M.phase = 'loading'; M.msg = 'Song ' + (i + 1) + ' wird gestartet â€¦'; renderMatch(); pushState();
+  M.phase = 'loading'; M.msg = 'Song ' + (i + 1) + ' wird gestartet …'; renderMatch(); pushState();
 
   startSong(i).catch(e => { afterSongs(); handleError(e); });
 
@@ -5769,7 +5770,7 @@ function stopSongEarly(){
 
 }
 
-/* Pause: Song und Uhr anhalten, spÃ¤ter an derselben Stelle weiter */
+/* Pause: Song und Uhr anhalten, später an derselben Stelle weiter */
 
 let pausedMusic = null;
 
@@ -5845,7 +5846,7 @@ function checkAllDone(){
 
 }
 
-/* Spielt das Haupthandy mit (Zeitstrahl gleichzeitig, Bingo): Weiter geht es, wenn alle verbundenen Spieler â€žWeiterâ€œ getippt haben */
+/* Spielt das Haupthandy mit (Zeitstrahl gleichzeitig, Bingo): Weiter geht es, wenn alle verbundenen Spieler „Weiter“ getippt haben */
 
 function checkReady(){
 
@@ -5971,7 +5972,7 @@ function nextRound(){
 
   if (M.mode === 'turns') {
 
-    // Die aufgedeckte Karte bleibt sichtbar, bis die nÃ¤chste Karte gezogen wird
+    // Die aufgedeckte Karte bleibt sichtbar, bis die nächste Karte gezogen wird
 
     stopClip(keepRun()); M.lastTurn = M.turn; M.turn = nextTurn(M.turn, false); M.phase = 'ready';
 
@@ -6015,13 +6016,13 @@ function rememberGame(){
 
 async function endMatchToHome(){
 
-  if (running() && !(await ask('Spiel wirklich beenden? Der Spielstand wird gelÃ¶scht.' + (room.code && M.mode !== 'solo' ? ' Die Mitspieler kommen zurÃ¼ck in den Warteraum.' : ''), 'Spiel beenden'))) return;
+  if (running() && !(await ask('Spiel wirklich beenden? Der Spielstand wird gelöscht.' + (room.code && M.mode !== 'solo' ? ' Die Mitspieler kommen zurück in den Warteraum.' : ''), 'Spiel beenden'))) return;
 
   if (!M) { openHome(); return; }
 
   hideIntro();
 
-  // Mit offenem Warteraum geht es gleich weiter: Stille hÃ¤lt das iPhone wach. Ohne Warteraum wirklich pausieren.
+  // Mit offenem Warteraum geht es gleich weiter: Stille hält das iPhone wach. Ohne Warteraum wirklich pausieren.
 
   stopClip(room.code ? false : 'end'); clearPause();
 
@@ -6045,7 +6046,7 @@ function playAgain(){
 
 
 
-/* Jahr korrigieren: gilt sofort fÃ¼r diese Runde und wird fÃ¼r alle spÃ¤teren Spiele gespeichert */
+/* Jahr korrigieren: gilt sofort für diese Runde und wird für alle späteren Spiele gespeichert */
 
 function openFix(){
 
@@ -6057,7 +6058,7 @@ function openFix(){
 
   const wrap = el('div', 'stack');
 
-  wrap.append(txt('p', 'muted small', 'Die Korrektur wird gespeichert und gilt ab sofort, auch in spÃ¤teren Spielen. Diese Runde wird neu gewertet.'));
+  wrap.append(txt('p', 'muted small', 'Die Korrektur wird gespeichert und gilt ab sofort, auch in späteren Spielen. Diese Runde wird neu gewertet.'));
 
   const inputs = M.cards.map((c, i) => {
 
@@ -6201,9 +6202,9 @@ function handleAction(k, p, a){
 
     if (M.mode !== 'turns' || a.round !== M.round) return;
 
-    // Nach dem Aufdecken darf der NÃ¤chste sofort selbst ziehen, ohne dass am Haupthandy jemand â€žWeiterâ€œ tippt.
+    // Nach dem Aufdecken darf der Nächste sofort selbst ziehen, ohne dass am Haupthandy jemand „Weiter“ tippt.
 
-    // Spielt das Haupthandy mit, gibt erst der weiter, der dran war (auÃŸer er ist nicht mehr verbunden).
+    // Spielt das Haupthandy mit, gibt erst der weiter, der dran war (außer er ist nicht mehr verbunden).
 
     if (M.phase === 'reveal' && !M.paused && nextTurn(M.turn, false) === k && (!selfActive() || !onlineKeys().has(M.turn))) nextRound();
 
@@ -6215,7 +6216,7 @@ function handleAction(k, p, a){
 
   if (a.t === 'next') {
 
-    // Wer dran war, gibt an den NÃ¤chsten weiter
+    // Wer dran war, gibt an den Nächsten weiter
 
     if (M.mode === 'turns' && a.round === M.round && M.phase === 'reveal' && !M.paused && M.turn === k) nextRound();
 
@@ -6225,7 +6226,7 @@ function handleAction(k, p, a){
 
   if (a.t === 'skip') {
 
-    // Wer dran ist, darf den eigenen Song Ã¼berspringen
+    // Wer dran ist, darf den eigenen Song überspringen
 
     if (M.mode === 'turns' && a.round === M.round && M.phase === 'playing' && !M.paused && M.turn === k) stopSongEarly();
 
@@ -6239,7 +6240,7 @@ function handleAction(k, p, a){
 
     if (M.phase === 'reveal' && p.result === 'pending') return;
 
-    // Richtig getippt, aber kein Feld befÃ¼llt: nur mit â€žTrotzdem weiterâ€œ. Das Feld verfÃ¤llt dann fÃ¼r diese Runde.
+    // Richtig getippt, aber kein Feld befüllt: nur mit „Trotzdem weiter“. Das Feld verfällt dann für diese Runde.
 
     if (M.phase === 'reveal' && p.canMark !== null && p.canMark !== undefined) { if (!a.skipMark) return; p.canMark = null; }
 
@@ -6311,7 +6312,7 @@ function handleAction(k, p, a){
 
 
 
-/* Zustand fÃ¼r alle Handys verÃ¶ffentlichen */
+/* Zustand für alle Handys veröffentlichen */
 
 function pushState(){
 
@@ -6375,9 +6376,9 @@ function pushState(){
 
 /* Anzeige am Haupthandy */
 
-/* Kartenfarben: hÃ¤ngen nicht vom Jahr ab, sonst kÃ¶nnte man aus der Farbe aufs Jahr schlieÃŸen.
+/* Kartenfarben: hängen nicht vom Jahr ab, sonst könnte man aus der Farbe aufs Jahr schließen.
 
-   Jeder Song bekommt fest eine Farbe aus der Palette, abgeleitet aus Titel und KÃ¼nstler. Im Zeitstrahl haben zwei Nachbarn nie dieselbe Farbe. */
+   Jeder Song bekommt fest eine Farbe aus der Palette, abgeleitet aus Titel und Künstler. Im Zeitstrahl haben zwei Nachbarn nie dieselbe Farbe. */
 
 const CARD_COLORS = ['#FF9EC4', '#FFB98A', '#FFE27A', '#B6EB8F', '#7FE3C8', '#86CFFF', '#AFA8FF', '#E3AEFF', '#FFA79A'];
 
@@ -6395,7 +6396,7 @@ function cardColorIdx(title, artist){
 
 const cardColor = (title, artist) => CARD_COLORS[cardColorIdx(title, artist)];
 
-// Farben fÃ¼r einen Zeitstrahl: wie der Song, aber nie gleich wie die Karte davor
+// Farben für einen Zeitstrahl: wie der Song, aber nie gleich wie die Karte davor
 
 function lineColors(line){
 
@@ -6405,7 +6406,7 @@ function lineColors(line){
 
 }
 
-/* Aufgedeckte Karte. Mit Cover: Cover links, Jahr daneben (bei 2 oder 3 Karten Ã¼bereinander).
+/* Aufgedeckte Karte. Mit Cover: Cover links, Jahr daneben (bei 2 oder 3 Karten übereinander).
 
    Nach Spotifys Vorgaben wird das Cover nicht beschnitten und nichts darauf gelegt, daneben steht der Link zu Spotify. */
 
@@ -6427,19 +6428,19 @@ function cardHtml(c, label){
 
 }
 
-/* GerÃ¤t testen: Spotify spielt die Stille (dieselben stillen Tracks wie zwischen den Songs) und P-Quiz fragt nach, ob Spotify wirklich spielt.
+/* Gerät testen: Spotify spielt die Stille (dieselben stillen Tracks wie zwischen den Songs) und P-Quiz fragt nach, ob Spotify wirklich spielt.
 
-   Man hÃ¶rt dabei nichts, und es braucht keine Playlist. */
+   Man hört dabei nichts, und es braucht keine Playlist. */
 
 async function testSilence(){
 
   const info = $('#devInfo'), say = (t, bad) => { info.hidden = false; info.textContent = t; info.className = 'small' + (bad ? ' bad' : ''); };
 
-  if (running() && M.round) { toast('WÃ¤hrend eines laufenden Spiels geht der Test nicht.'); return; }
+  if (running() && M.round) { toast('Während eines laufenden Spiels geht der Test nicht.'); return; }
 
   activateSdk();
 
-  say('Die Stille wird gestartet â€¦');
+  say('Die Stille wird gestartet …');
 
   try {
 
@@ -6461,13 +6462,13 @@ async function testSilence(){
 
     if (st && st.item && st.is_playing !== false) {
 
-      const where = st.device ? (st.device.name === SDK_NAME ? 'diesem Browser' : 'â€ž' + st.device.name + 'â€œ') : 'dem GerÃ¤t';
+      const where = st.device ? (st.device.name === SDK_NAME ? 'diesem Browser' : '„' + st.device.name + '“') : 'dem Gerät';
 
-      say('âœ“ Spotify spielt auf ' + where + ' die Stille. Man hÃ¶rt nichts, das ist richtig so. Das GerÃ¤t ist bereit.');
+      say('✓ Spotify spielt auf ' + where + ' die Stille. Man hört nichts, das ist richtig so. Das Gerät ist bereit.');
 
       if (afterClip() === 'pause') pauseMusic();
 
-    } else say('Spotify meldet, dass nichts lÃ¤uft. Ã–ffne Spotify auf dem GerÃ¤t, spiel kurz etwas an, tippe auf Suchen und teste nochmal. Oder wÃ¤hle ein anderes GerÃ¤t.', true);
+    } else say('Spotify meldet, dass nichts läuft. Öffne Spotify auf dem Gerät, spiel kurz etwas an, tippe auf Suchen und teste nochmal. Oder wähle ein anderes Gerät.', true);
 
   } catch (e) {
 
@@ -6519,7 +6520,7 @@ function histHtml(hist){
 
 }
 
-// Ãœbersicht, welche Farbe welche Aufgabe abfragt, passend zur eigenen Stufe
+// Übersicht, welche Farbe welche Aufgabe abfragt, passend zur eigenen Stufe
 
 function legendHtml(legend, lvl){
 
@@ -6533,7 +6534,7 @@ function legendHtml(legend, lvl){
 
 }
 
-// GroÃŸe Ãœberschrift: wer ist dran, wer danach
+// Große Überschrift: wer ist dran, wer danach
 
 const whoHtml = (label, who, sub) => '<div class="who"><div class="wl">' + esc(label) + '</div><div class="wn' + (who.length > 12 ? ' long' : '') + '">' + esc(who) + '</div>' +
 
@@ -6567,13 +6568,13 @@ const CROWN = '<svg class="crown" viewBox="-6 -2 132 92" aria-hidden="true"><pat
 
   '<circle cx="36" cy="76" r="4" fill="#5B9BFF"/><circle cx="60" cy="76" r="4" fill="#4ED18A"/><circle cx="84" cy="76" r="4" fill="#A77BFF"/></svg>';
 
-// Siegerbild: Krone, groÃŸer Name, darunter wie gewonnen wurde
+// Siegerbild: Krone, großer Name, darunter wie gewonnen wurde
 
 function winHtml(names, iWon, myName, sub){
 
   const who = iWon ? 'Du hast gewonnen!' : names.join(' und ') || 'niemand';
 
-  const label = iWon ? 'GlÃ¼ckwunsch, ' + myName + '!' : names.length > 1 ? 'Gewonnen haben' : 'Gewonnen hat';
+  const label = iWon ? 'Glückwunsch, ' + myName + '!' : names.length > 1 ? 'Gewonnen haben' : 'Gewonnen hat';
 
   return '<div class="winner"><div class="glow"></div>' + CROWN + '<div class="wl">' + esc(label) + '</div><div class="wn' + (who.length > 11 ? ' long' : '') + '">' + esc(who) + '</div>' +
 
@@ -6583,11 +6584,11 @@ function winHtml(names, iWon, myName, sub){
 
 function winSub(mode, win, target, tieWin, winnerP){
 
-  if (mode === 'bingo') return 'Bingo Â· ' + (WIN_NAMES[win] || 'Eine Reihe');
+  if (mode === 'bingo') return 'Bingo · ' + (WIN_NAMES[win] || 'Eine Reihe');
 
   const n = winnerP && winnerP.line ? winnerP.line.length : target;
 
-  return n + ' von ' + target + ' Karten' + (tieWin ? ' Â· Stechen gewonnen' : '');
+  return n + ' von ' + target + ' Karten' + (tieWin ? ' · Stechen gewonnen' : '');
 
 }
 
@@ -6633,7 +6634,7 @@ function renderMatch(){
 
   if (!M) return;
 
-  // Die Uhr lÃ¤uft immer, auch wenn gerade eine andere Ansicht vorne ist
+  // Die Uhr läuft immer, auch wenn gerade eine andere Ansicht vorne ist
 
   startTick();
 
@@ -6683,7 +6684,7 @@ function renderMatch(){
 
   const replaying = !!(M.timer && M.timer.kind === 'replay');
 
-  // Beim Sieg steht das Siegerbild oben, die letzte Karte tritt zurÃ¼ck
+  // Beim Sieg steht das Siegerbild oben, die letzte Karte tritt zurück
 
   const cardsVisible = showCards && M.phase !== 'over';
 
@@ -6729,17 +6730,17 @@ function renderMatch(){
 
   const status = {
 
-    loading:M.msg || 'Einen Moment â€¦',
+    loading:M.msg || 'Einen Moment …',
 
-    ready:M.mode === 'turns' ? name(M.turn) + (on.has(M.turn) ? ' zieht die nÃ¤chste Karte, am eigenen Handy oder hier.' : ' ist dran, das Handy ist gerade nicht verbunden.') : 'Bereit fÃ¼r die nÃ¤chste Runde.',
+    ready:M.mode === 'turns' ? name(M.turn) + (on.has(M.turn) ? ' zieht die nächste Karte, am eigenen Handy oder hier.' : ' ist dran, das Handy ist gerade nicht verbunden.') : 'Bereit für die nächste Runde.',
 
-    playing:(M.gap ? 'Gleich kommt Song ' + (M.songIdx + 1) + ' von ' + M.cards.length : M.cards.length > 1 ? 'Song ' + M.songIdx + ' von ' + M.cards.length + ' lÃ¤uft' : M.mode === 'turns' ? name(M.turn) + ' hÃ¶rt und ordnet ein â€¦' : 'HÃ¶r genau hin')
+    playing:(M.gap ? 'Gleich kommt Song ' + (M.songIdx + 1) + ' von ' + M.cards.length : M.cards.length > 1 ? 'Song ' + M.songIdx + ' von ' + M.cards.length + ' läuft' : M.mode === 'turns' ? name(M.turn) + ' hört und ordnet ein …' : 'Hör genau hin')
 
       + (M.mode === 'together' && placedN ? ', ' + placedN + ' von ' + act.length + ' eingeordnet' : '')
 
       + (M.mode === 'bingo' && answeredN ? ', ' + answeredN + ' von ' + needers.length + ' geantwortet' : ''),
 
-    placing:M.mode === 'turns' ? name(M.turn) + ' ordnet ein â€¦' : placedN + ' von ' + act.length + ' haben eingeordnet',
+    placing:M.mode === 'turns' ? name(M.turn) + ' ordnet ein …' : placedN + ' von ' + act.length + ' haben eingeordnet',
 
     answering:needers.length ? answeredN + ' von ' + needers.length + ' haben geantwortet' : 'Jetzt laut antworten, dann aufdecken.',
 
@@ -6747,7 +6748,7 @@ function renderMatch(){
 
   }[M.phase] || '';
 
-  $('#mStatus').textContent = M.paused ? 'Pausiert' : replaying ? 'LÃ¤uft nochmal' : status;
+  $('#mStatus').textContent = M.paused ? 'Pausiert' : replaying ? 'Läuft nochmal' : status;
 
   let res = '';
 
@@ -6779,9 +6780,9 @@ function renderMatch(){
 
   if (M.paused && M.paused.t && M.paused.t.kind === 'next') setHtml($('#mAuto'), '<div class="autobar"><span>Automatik pausiert</span></div>');
 
-  else if (M.timer && M.timer.kind === 'next') setHtml($('#mAuto'), autoBarHtml('NÃ¤chste Karte in ' + AUTO_SECS + ' s'));
+  else if (M.timer && M.timer.kind === 'next') setHtml($('#mAuto'), autoBarHtml('Nächste Karte in ' + AUTO_SECS + ' s'));
 
-  else if (M.auto && M.phase === 'reveal') setHtml($('#mAuto'), '<div class="autobar"><span>Automatik wartet, bis alle ihr Feld gewÃ¤hlt oder sich bewertet haben â€¦</span></div>');
+  else if (M.auto && M.phase === 'reveal') setHtml($('#mAuto'), '<div class="autobar"><span>Automatik wartet, bis alle ihr Feld gewählt oder sich bewertet haben …</span></div>');
 
   else setHtml($('#mAuto'), '');
 
@@ -6789,31 +6790,31 @@ function renderMatch(){
 
   const btn = (label, fn, primary) => { const b = txt('button', 'btn ' + (primary ? 'primary' : 'secondary'), label); b.type = 'button'; b.onclick = fn; acts.append(b); };
 
-  const nextLabel = M.mode === 'turns' ? 'Weiter mit ' + name(nextTurn(M.turn, false)) : M.mode === 'bingo' ? 'NÃ¤chste Runde' : 'NÃ¤chste Karte';
+  const nextLabel = M.mode === 'turns' ? 'Weiter mit ' + name(nextTurn(M.turn, false)) : M.mode === 'bingo' ? 'Nächste Runde' : 'Nächste Karte';
 
   if (M.paused) {
 
-    btn('â–¶ Play', resumeGame, true);
+    btn('▶ Play', resumeGame, true);
 
     if (M.phase === 'reveal') btn(nextLabel, nextRound, false);
 
   } else {
 
-    if (M.phase === 'ready') btn(M.mode === 'turns' ? 'Karte fÃ¼r ' + name(M.turn) + ' ziehen' : M.round ? 'NÃ¤chste Runde' : 'Erste Karte ziehen', drawRound, true);
+    if (M.phase === 'ready') btn(M.mode === 'turns' ? 'Karte für ' + name(M.turn) + ' ziehen' : M.round ? 'Nächste Runde' : 'Erste Karte ziehen', drawRound, true);
 
-    if (canPause()) btn('âšâš Pause', pauseGame, false);
+    if (canPause()) btn('❚❚ Pause', pauseGame, false);
 
-    if (M.phase === 'playing' || replaying || (M.phase === 'reveal' && clip.on)) btn(M.gap ? 'NÃ¤chsten Song sofort' : 'Ãœberspringen', stopSongEarly, false);
+    if (M.phase === 'playing' || replaying || (M.phase === 'reveal' && clip.on)) btn(M.gap ? 'Nächsten Song sofort' : 'Überspringen', stopSongEarly, false);
 
     if (M.phase === 'placing' || M.phase === 'answering') btn('Jetzt aufdecken', forceReveal, M.mode === 'bingo' && !needers.length);
 
-    if (M.phase === 'stopped') { btn('Karte umdrehen', soloFlip, true); btn('Nochmal hÃ¶ren', replay, false); }
+    if (M.phase === 'stopped') { btn('Karte umdrehen', soloFlip, true); btn('Nochmal hören', replay, false); }
 
     if (M.phase === 'reveal') {
 
       btn(nextLabel, nextRound, true);
 
-      if (!replaying && !clip.on) btn('Nochmal hÃ¶ren', replay, false);
+      if (!replaying && !clip.on) btn('Nochmal hören', replay, false);
 
     }
 
@@ -6821,9 +6822,9 @@ function renderMatch(){
 
   if (M.phase === 'over') {
 
-    if (M.mode === 'solo' || !room.code) { btn('Nochmal spielen', playAgain, true); btn('Zum HauptmenÃ¼', endMatchToHome, false); }
+    if (M.mode === 'solo' || !room.code) { btn('Nochmal spielen', playAgain, true); btn('Zum Hauptmenü', endMatchToHome, false); }
 
-    else { btn('ZurÃ¼ck in den Warteraum', endMatchToHome, true); btn('Nochmal spielen: ' + MODES[M.mode].name, playAgain, false); }
+    else { btn('Zurück in den Warteraum', endMatchToHome, true); btn('Nochmal spielen: ' + MODES[M.mode].name, playAgain, false); }
 
   }
 
@@ -6873,35 +6874,35 @@ function renderBoard(){
 
     let info = '';
 
-    if (M.mode === 'together' && M.round && !M.revealed && ['placing', 'playing'].includes(M.phase)) info = M.tie && !M.tie.includes(k) ? 'schaut zu' : p.placed !== null ? '<span class="ok">âœ“ eingeordnet</span>' : 'Ã¼berlegt noch';
+    if (M.mode === 'together' && M.round && !M.revealed && ['placing', 'playing'].includes(M.phase)) info = M.tie && !M.tie.includes(k) ? 'schaut zu' : p.placed !== null ? '<span class="ok">✓ eingeordnet</span>' : 'überlegt noch';
 
-    if (M.mode === 'bingo' && !M.revealed && M.round && needsInput(taskFor(p), M.check)) info = p.answered ? '<span class="ok">âœ“ geantwortet</span>' : 'Ã¼berlegt noch';
+    if (M.mode === 'bingo' && !M.revealed && M.round && needsInput(taskFor(p), M.check)) info = p.answered ? '<span class="ok">✓ geantwortet</span>' : 'überlegt noch';
 
     if (M.revealed && p.result && (M.mode !== 'turns' || k === judged)) {
 
-      const t = p.result === 'right' ? (p.almost ? 'richtig, nicht ganz richtig geschrieben' : 'richtig') : p.result === 'wrong' ? 'falsch' : 'bewertet sich â€¦';
+      const t = p.result === 'right' ? (p.almost ? 'richtig, nicht ganz richtig geschrieben' : 'richtig') : p.result === 'wrong' ? 'falsch' : 'bewertet sich …';
 
-      info = (p.said ? 'â€ž' + esc(p.said) + 'â€œ Â· ' : '') + t;
+      info = (p.said ? '„' + esc(p.said) + '“ · ' : '') + t;
 
     }
 
-    if (M.mode === 'bingo' && p.canMark !== null && p.canMark !== undefined) info += (info ? ' Â· ' : '') + 'wÃ¤hlt ein Feld';
+    if (M.mode === 'bingo' && p.canMark !== null && p.canMark !== undefined) info += (info ? ' · ' : '') + 'wählt ein Feld';
 
     const score = M.mode === 'bingo' ? 'noch ' + bingoMissing(p.marks, M.win) : p.line.length + '/' + M.target;
 
-    if (M.tie && M.tie.includes(k) && !over) info = 'Stechen' + (info ? ' Â· ' + info : '');
+    if (M.tie && M.tie.includes(k) && !over) info = 'Stechen' + (info ? ' · ' + info : '');
 
     if (over) info = '';
 
-    row.innerHTML = '<span class="pn">' + (over ? '<span class="rk">' + ranks[k] + '.</span>' : mark === 'right' ? 'âœ“ ' : mark === 'wrong' ? 'âœ— ' : '') + esc(p.name) + '</span><span class="pi">' + info + '</span><span class="ps">' + esc(score) + '</span>';
+    row.innerHTML = '<span class="pn">' + (over ? '<span class="rk">' + ranks[k] + '.</span>' : mark === 'right' ? '✓ ' : mark === 'wrong' ? '✗ ' : '') + esc(p.name) + '</span><span class="pi">' + info + '</span><span class="ps">' + esc(score) + '</span>';
 
     if (M.mode === 'bingo' && !over) {
 
       const lv = p.lvlNext || p.lvl;
 
-      const b = txt('button', 'lvl' + (lv === 'adv' ? ' adv' : ''), (p.lvlNext ? 'â†’ ' : '') + (lv === 'adv' ? 'Fortg.' : 'Normal')); b.type = 'button';
+      const b = txt('button', 'lvl' + (lv === 'adv' ? ' adv' : ''), (p.lvlNext ? '→ ' : '') + (lv === 'adv' ? 'Fortg.' : 'Normal')); b.type = 'button';
 
-      b.title = 'Schwierigkeit Ã¤ndern';
+      b.title = 'Schwierigkeit ändern';
 
       b.onclick = () => setLevel(k, lv === 'adv' ? 'normal' : 'adv');
 
@@ -6927,7 +6928,7 @@ function openJoin(code){
 
   show('pjoin');
 
-  // Beide Felder starten leer. Nur wer Ã¼ber den QR-Code kommt, hat den Raumcode schon drin.
+  // Beide Felder starten leer. Nur wer über den QR-Code kommt, hat den Raumcode schon drin.
 
   $('#joinCode').value = cleanCode(code || '');
 
@@ -6949,13 +6950,13 @@ async function joinRoom(){
 
   if (!name) { err.textContent = 'Gib deinen Namen ein.'; return; }
 
-  err.textContent = ''; $('#joinBtn').disabled = true; $('#joinBtn').textContent = 'Verbinde â€¦';
+  err.textContent = ''; $('#joinBtn').disabled = true; $('#joinBtn').textContent = 'Verbinde …';
 
   try {
 
     await FB.start();
 
-    if (await FB.get('rooms/' + code + '/host') === null) { err.textContent = 'Diesen Spielraum gibt es nicht. PrÃ¼f den Code.'; return; }
+    if (await FB.get('rooms/' + code + '/host') === null) { err.textContent = 'Diesen Spielraum gibt es nicht. Prüf den Code.'; return; }
 
     const players = (await FB.get('rooms/' + code + '/players')) || {};
 
@@ -7021,7 +7022,7 @@ async function leaveRoom(){
 
   store.del('join');
 
-  // Sofort zur Beitreten-Seite, das Austragen lÃ¤uft im Hintergrund. Bei schlechtem Netz hing hier frÃ¼her alles.
+  // Sofort zur Beitreten-Seite, das Austragen läuft im Hintergrund. Bei schlechtem Netz hing hier früher alles.
 
   openJoin(code);
 
@@ -7035,7 +7036,7 @@ function send(act){
 
   const a = { ...act, round:st ? st.round : 0, id:randStr(6), at:FB.stamp() };
 
-  return FB.set('rooms/' + seat.code + '/actions/' + FB.uid, a).catch(() => toast('Senden hat nicht geklappt. PrÃ¼f das Internet.'));
+  return FB.set('rooms/' + seat.code + '/actions/' + FB.uid, a).catch(() => toast('Senden hat nicht geklappt. Prüf das Internet.'));
 
 }
 
@@ -7065,7 +7066,7 @@ function drawPlayer(r){
 
   const mine = r.players && r.players[FB.uid];
 
-  if (kickedAt && !(mine && mine.joined && mine.joined > kickedAt)) { playerGone('Das Haupthandy hat dich aus dem Warteraum entfernt. Mit â€žNeu beitretenâ€œ kannst du wieder rein.'); return; }
+  if (kickedAt && !(mine && mine.joined && mine.joined > kickedAt)) { playerGone('Das Haupthandy hat dich aus dem Warteraum entfernt. Mit „Neu beitreten“ kannst du wieder rein.'); return; }
 
   if ((!r.players || r.players[FB.uid] === undefined) && seat.name && !seat.admin) {
 
@@ -7087,7 +7088,7 @@ function drawPlayer(r){
 
   if (st.phase === 'loading' && st.intro) {
 
-    // Start-Ãœbersicht wie am Haupthandy
+    // Start-Übersicht wie am Haupthandy
 
     mini.hidden = true; cards.hidden = true; wait.hidden = true;
 
@@ -7119,9 +7120,9 @@ function drawPlayer(r){
 
       html = '<div class="box"><h2>Warteraum</h2>' +
 
-        (st.mode === 'solo' && !lobby ? '<p style="margin:.4rem 0 0">Das Haupthandy spielt gerade ohne Mitspieler. Du wartest hier auf das nÃ¤chste Spiel.</p>'
+        (st.mode === 'solo' && !lobby ? '<p style="margin:.4rem 0 0">Das Haupthandy spielt gerade ohne Mitspieler. Du wartest hier auf das nächste Spiel.</p>'
 
-          : '<p style="margin:.4rem 0 0">Als NÃ¤chstes: <b>' + esc(MODES[st.mode] ? MODES[st.mode].name : 'ein neues Spiel') + '</b></p>' +
+          : '<p style="margin:.4rem 0 0">Als Nächstes: <b>' + esc(MODES[st.mode] ? MODES[st.mode].name : 'ein neues Spiel') + '</b></p>' +
 
             '<p class="muted small" style="margin:.35rem 0 0">Sobald das Haupthandy das Spiel startet, geht es hier los.</p>') +
 
@@ -7139,7 +7140,7 @@ function drawPlayer(r){
 
     wait.hidden = false;
 
-    wait.textContent = lobby || st.mode === 'solo' ? '' : st.phase === 'loading' ? 'Das Spiel wird vorbereitet â€¦' : 'Gleich bist du dabei â€¦';
+    wait.textContent = lobby || st.mode === 'solo' ? '' : st.phase === 'loading' ? 'Das Spiel wird vorbereitet …' : 'Gleich bist du dabei …';
 
     if (!wait.textContent) wait.hidden = true;
 
@@ -7167,7 +7168,7 @@ function drawPlayer(r){
 
   const turnsReady = st.mode === 'turns' && st.phase === 'ready';
 
-  // Zeitstrahl reihum: der Kasten mit Uhr zeigt immer, wer dran ist. Wer als NÃ¤chstes dran ist, sieht das darin.
+  // Zeitstrahl reihum: der Kasten mit Uhr zeigt immer, wer dran ist. Wer als Nächstes dran ist, sieht das darin.
 
   mini.hidden = st.phase === 'over' || (st.mode !== 'turns' && ((showCards && !replaying) || st.phase === 'ready' || !st.round));
 
@@ -7187,27 +7188,27 @@ function drawPlayer(r){
 
   const tieNames = st.tie ? st.tie.map(k => k === seat.key ? 'dir' : name(k)) : [];
 
-  $('#pStatus').textContent = st.paused ? 'Pausiert' : replaying ? 'LÃ¤uft nochmal' : watching && ['playing', 'placing', 'ready', 'loading'].includes(st.phase) ? 'Stechen zwischen ' + tieNames.join(' und ') + '. Du schaust zu.' : {
+  $('#pStatus').textContent = st.paused ? 'Pausiert' : replaying ? 'Läuft nochmal' : watching && ['playing', 'placing', 'ready', 'loading'].includes(st.phase) ? 'Stechen zwischen ' + tieNames.join(' und ') + '. Du schaust zu.' : {
 
-    loading:'Gleich gehtâ€™s los â€¦',
+    loading:'Gleich geht’s los …',
 
-    ready:st.mode === 'turns' ? (myTurn ? 'Du bist dran. Zieh eine Karte.' : name(st.turn) + ' ist dran' + (onlineSet(r).has(st.turn) ? '.' : ', ist aber gerade nicht verbunden.')) : 'Gleich kommt die nÃ¤chste Karte.',
+    ready:st.mode === 'turns' ? (myTurn ? 'Du bist dran. Zieh eine Karte.' : name(st.turn) + ' ist dran' + (onlineSet(r).has(st.turn) ? '.' : ', ist aber gerade nicht verbunden.')) : 'Gleich kommt die nächste Karte.',
 
-    playing:st.gap ? 'Gleich kommt Song ' + (st.songIdx + 1) + ' von ' + st.songs : st.songs > 1 ? 'Song ' + st.songIdx + ' von ' + st.songs + ' lÃ¤uft'
+    playing:st.gap ? 'Gleich kommt Song ' + (st.songIdx + 1) + ' von ' + st.songs : st.songs > 1 ? 'Song ' + st.songIdx + ' von ' + st.songs + ' läuft'
 
-      : st.mode === 'turns' ? (myTurn ? 'HÃ¶r hin und ordne ein. Sobald du bestÃ¤tigst, wird aufgedeckt.' : name(st.turn) + ' hÃ¶rt und ordnet ein â€¦')
+      : st.mode === 'turns' ? (myTurn ? 'Hör hin und ordne ein. Sobald du bestätigst, wird aufgedeckt.' : name(st.turn) + ' hört und ordnet ein …')
 
-      : st.mode === 'together' ? (placedMe ? 'Eingeordnet. Aufgedeckt wird, wenn die Zeit um ist.' : 'HÃ¶r hin und ordne ein.') : 'HÃ¶r genau hin',
+      : st.mode === 'together' ? (placedMe ? 'Eingeordnet. Aufgedeckt wird, wenn die Zeit um ist.' : 'Hör hin und ordne ein.') : 'Hör genau hin',
 
-    placing:st.mode === 'turns' ? (myTurn ? 'Wo gehÃ¶rt der Song hin?' : name(st.turn) + ' ordnet ein â€¦') : (placedMe ? 'Eingeordnet. Aufgedeckt wird, wenn die Zeit um ist.' : 'Wo gehÃ¶rt der Song hin?'),
+    placing:st.mode === 'turns' ? (myTurn ? 'Wo gehört der Song hin?' : name(st.turn) + ' ordnet ein …') : (placedMe ? 'Eingeordnet. Aufgedeckt wird, wenn die Zeit um ist.' : 'Wo gehört der Song hin?'),
 
     answering:needsInput(myTask, st.check) ? (meP && meP.answered ? 'Antwort abgeschickt. Warte auf die anderen.' : 'Jetzt antworten') : 'Sag deine Antwort laut.',
 
     reveal:st.mode === 'turns' && st.next ? (st.self && onlineSet(r).has(st.turn)
 
-        ? (st.turn === seat.key ? (st.next !== seat.key ? 'Tippe auf Weiter, dann ist ' + name(st.next) + ' dran.' : 'Tippe auf Weiter.') : st.next === seat.key ? name(st.turn) + ' gibt gleich an dich weiter.' : name(st.next) + ' ist als NÃ¤chstes dran.')
+        ? (st.turn === seat.key ? (st.next !== seat.key ? 'Tippe auf Weiter, dann ist ' + name(st.next) + ' dran.' : 'Tippe auf Weiter.') : st.next === seat.key ? name(st.turn) + ' gibt gleich an dich weiter.' : name(st.next) + ' ist als Nächstes dran.')
 
-        : st.next === seat.key ? 'Du bist jetzt dran. Zieh deine Karte.' : name(st.next) + ' ist als NÃ¤chstes dran.') : '',
+        : st.next === seat.key ? 'Du bist jetzt dran. Zieh deine Karte.' : name(st.next) + ' ist als Nächstes dran.') : '',
 
     stopped:'Zeit um.'
 
@@ -7271,7 +7272,7 @@ function drawPlayer(r){
 
     const can = meP.canMark !== null && meP.canMark !== undefined;
 
-    const almost = meP.almost ? '<div class="almost">Nicht ganz richtig geschrieben, der Punkt zÃ¤hlt trotzdem.</div>' : '';
+    const almost = meP.almost ? '<div class="almost">Nicht ganz richtig geschrieben, der Punkt zählt trotzdem.</div>' : '';
 
     res = meP.result === 'right' ? '<div class="result good">Richtig!' + (can ? ' Tippe ein ' + COLORS[meP.canMark].adj + ' Feld an.' : '') + almost + '</div>'
 
@@ -7287,7 +7288,7 @@ function drawPlayer(r){
 
   setHtml($('#pResult'), res);
 
-  setHtml($('#pAuto'), st.timer && st.timer.kind === 'next' ? autoBarHtml('NÃ¤chste Karte gleich â€¦') : '');
+  setHtml($('#pAuto'), st.timer && st.timer.kind === 'next' ? autoBarHtml('Nächste Karte gleich …') : '');
 
   $('#pDraw').innerHTML = '';
 
@@ -7309,9 +7310,9 @@ function drawPlayer(r){
 
 const onlineSet = r => new Set(playerList(r && r.players).filter(([, p]) => p.online !== false).map(([, p]) => nameKey(p.name)));
 
-/* Spielstand: jeder sieht, wie weit alle sind, klein und hÃ¶chstens die besten 8. Antippen zeigt im Zeitstrahl-Modus die Karten der Person.
+/* Spielstand: jeder sieht, wie weit alle sind, klein und höchstens die besten 8. Antippen zeigt im Zeitstrahl-Modus die Karten der Person.
 
-   Bei Bingo steht er unter den Notizen, direkt Ã¼ber der Bingokarte. Am Ende die volle Rangliste. */
+   Bei Bingo steht er unter den Notizen, direkt über der Bingokarte. Am Ende die volle Rangliste. */
 
 const STAND_MAX = 8;
 
@@ -7389,19 +7390,19 @@ function roundHtml(st, r){
 
   const right = keys.filter(k => st.pl[k].result === 'right').length, nw = ' style="white-space:nowrap"';
 
-  const state = p => p.result === 'right' ? '<span class="ok">âœ“ richtig</span>' : p.result === 'wrong' ? '<span class="bad"' + nw + '>âœ— falsch</span>'
+  const state = p => p.result === 'right' ? '<span class="ok">✓ richtig</span>' : p.result === 'wrong' ? '<span class="bad"' + nw + '>✗ falsch</span>'
 
-    : '<span class="muted">' + (p.result === 'pending' ? 'bewertet sich â€¦' : st.mode === 'bingo' ? 'keine Antwort' : 'nicht eingeordnet') + '</span>';
+    : '<span class="muted">' + (p.result === 'pending' ? 'bewertet sich …' : st.mode === 'bingo' ? 'keine Antwort' : 'nicht eingeordnet') + '</span>';
 
   return '<div class="box done" id="pRound"><div class="boxhead"><h2>Diese Runde</h2><span class="muted small">' + right + ' von ' + keys.length + ' richtig</span></div>' +
 
     keys.map(k => { const p = st.pl[k]; return '<div class="drow"><span class="dn">' + esc(p.name + (k === seat.key ? ' (du)' : '')) +
 
-      (p.said ? ' <span class="muted">Â· â€ž' + esc(p.said) + 'â€œ</span>' : '') + '</span>' + state(p) + '</div>'; }).join('') + '</div>';
+      (p.said ? ' <span class="muted">· „' + esc(p.said) + '“</span>' : '') + '</span>' + state(p) + '</div>'; }).join('') + '</div>';
 
 }
 
-// Nach dem eigenen Einloggen: wer hat schon, wer Ã¼berlegt noch
+// Nach dem eigenen Einloggen: wer hat schon, wer überlegt noch
 
 function doneHtml(st, keys, kind){
 
@@ -7415,7 +7416,7 @@ function doneHtml(st, keys, kind){
 
     keys.map(k => '<div class="drow"><span class="dn">' + esc(st.pl[k].name + (k === seat.key ? ' (du)' : '')) + '</span>' +
 
-      (done(k) ? '<span class="ok">âœ“ ' + word + '</span>' : '<span class="muted">Ã¼berlegt noch</span>') + '</div>').join('') + '</div>';
+      (done(k) ? '<span class="ok">✓ ' + word + '</span>' : '<span class="muted">überlegt noch</span>') + '</div>').join('') + '</div>';
 
 }
 
@@ -7433,7 +7434,7 @@ function newRound(st){
 
 }
 
-// Nach dem BestÃ¤tigen wird die eigene Antwort verschwommen, damit niemand abschauen kann. Antippen zeigt sie wieder zum Ã„ndern.
+// Nach dem Bestätigen wird die eigene Antwort verschwommen, damit niemand abschauen kann. Antippen zeigt sie wieder zum Ändern.
 
 function veilButton(text, onOpen){
 
@@ -7481,7 +7482,7 @@ function drawTimelineArea(st, meP, myTurn){
 
     const g = el('button', 'gap' + (end ? ' end' : '')); g.type = 'button';
 
-    g.textContent = canPlace ? (i === 0 ? 'frÃ¼her' : i === line.length ? 'spÃ¤ter' : 'dazwischen') : (i === 0 && line.length ? 'frÃ¼her' : i === line.length && line.length ? 'spÃ¤ter' : '');
+    g.textContent = canPlace ? (i === 0 ? 'früher' : i === line.length ? 'später' : 'dazwischen') : (i === 0 && line.length ? 'früher' : i === line.length && line.length ? 'später' : '');
 
     if (canPlace) {
 
@@ -7513,7 +7514,7 @@ function drawTimelineArea(st, meP, myTurn){
 
   body.append(tl); veil.append(body);
 
-  if (veiled) veil.append(veilButton('Eingeordnet âœ“ Zum Ã„ndern hier tippen.', () => { seat.unveil = true; drawTimelineArea(st, meP, myTurn); }));
+  if (veiled) veil.append(veilButton('Eingeordnet ✓ Zum Ändern hier tippen.', () => { seat.unveil = true; drawTimelineArea(st, meP, myTurn); }));
 
   const watching = st.mode === 'together' && st.tie && !st.tie.includes(seat.key) && ['placing', 'playing'].includes(st.phase) && !st.cards;
 
@@ -7539,7 +7540,7 @@ function drawTimelineArea(st, meP, myTurn){
 
   if (canPlace && !veiled) {
 
-    const b = txt('button', 'btn primary', confirmed ? 'Neue Auswahl bestÃ¤tigen' : 'Einordnen bestÃ¤tigen'); b.type = 'button';
+    const b = txt('button', 'btn primary', confirmed ? 'Neue Auswahl bestätigen' : 'Einordnen bestätigen'); b.type = 'button';
 
     b.disabled = seat.sel === null;
 
@@ -7593,7 +7594,7 @@ function drawBingoArea(st, meP, myTask){
 
     main.append(done, formBox, fa);
 
-    // Bei 2 oder 3 Songs: Notizen nur fÃ¼r dich, zum Beispiel schon wÃ¤hrend Song 1. Sie bleiben die ganze Runde stehen.
+    // Bei 2 oder 3 Songs: Notizen nur für dich, zum Beispiel schon während Song 1. Sie bleiben die ganze Runde stehen.
 
     if (st.round && songsOf(myTask) > 1) {
 
@@ -7653,13 +7654,13 @@ function drawBingoArea(st, meP, myTask){
 
     const old = formBox.querySelector('.veilbtn'); if (old) old.remove();
 
-    if (veiled) formBox.append(veilButton('Antwort abgeschickt âœ“ Zum Ã„ndern hier tippen.', () => { seat.unveil = true; drawBingoArea(st, meP, myTask); }));
+    if (veiled) formBox.append(veilButton('Antwort abgeschickt ✓ Zum Ändern hier tippen.', () => { seat.unveil = true; drawBingoArea(st, meP, myTask); }));
 
   }
 
   if (answering && seat.form && !veiled) {
 
-    const b = txt('button', 'btn primary', sent ? 'GeÃ¤nderte Antwort abschicken' : 'Antwort abschicken'); b.type = 'button';
+    const b = txt('button', 'btn primary', sent ? 'Geänderte Antwort abschicken' : 'Antwort abschicken'); b.type = 'button';
 
     if (st.color !== null && st.color !== undefined && COLORS[st.color]) { b.style.background = COLORS[st.color].bg; b.style.color = COLORS[st.color].fg; }
 
@@ -7705,7 +7706,7 @@ function drawBingoArea(st, meP, myTask){
 
       }
 
-      row.append(txt('span', '', k === 'free' ? 'Geschafft?' : (k === 'title' ? 'Titel' : 'KÃ¼nstler') + ' gewusst?'), g);
+      row.append(txt('span', '', k === 'free' ? 'Geschafft?' : (k === 'title' ? 'Titel' : 'Künstler') + ' gewusst?'), g);
 
       box.append(row);
 
@@ -7733,7 +7734,7 @@ function drawBingoArea(st, meP, myTask){
 
   meP.grid.forEach((ci, i) => {
 
-    const c = COLORS[ci], marked = meP.marks && meP.marks[i], b = txt('button', 'cell', marked ? 'âœ“' : ''); b.type = 'button';
+    const c = COLORS[ci], marked = meP.marks && meP.marks[i], b = txt('button', 'cell', marked ? '✓' : ''); b.type = 'button';
 
     b.style.background = c.bg; b.style.color = c.fg;
 
@@ -7747,7 +7748,7 @@ function drawBingoArea(st, meP, myTask){
 
       b.classList.add('pickme');
 
-      b.onclick = () => { send({ t:'mark', idx:i }); b.textContent = 'âœ“'; grid.querySelectorAll('.pickme').forEach(x => { x.classList.remove('pickme'); x.onclick = null; x.disabled = true; }); };
+      b.onclick = () => { send({ t:'mark', idx:i }); b.textContent = '✓'; grid.querySelectorAll('.pickme').forEach(x => { x.classList.remove('pickme'); x.onclick = null; x.disabled = true; }); };
 
     } else b.disabled = true;
 
@@ -7773,7 +7774,7 @@ function drawBingoArea(st, meP, myTask){
 
 }
 
-// RÃ¼ckfrage mit eigenem Text auf dem zweiten Knopf (sonst â€žAbbrechenâ€œ)
+// Rückfrage mit eigenem Text auf dem zweiten Knopf (sonst „Abbrechen“)
 
 async function askNo(text, yes, no){
 
@@ -7785,7 +7786,7 @@ async function askNo(text, yes, no){
 
 }
 
-/* Spielt das Haupthandy mit, klickt jeder selbst weiter: im Zeitstrahl reihum der, der dran war; sonst alle mit â€žBereitâ€œ */
+/* Spielt das Haupthandy mit, klickt jeder selbst weiter: im Zeitstrahl reihum der, der dran war; sonst alle mit „Bereit“ */
 
 function drawSelfButtons(st, meP){
 
@@ -7819,7 +7820,7 @@ function drawSelfButtons(st, meP){
 
     if (st.phase === 'reveal' && st.turn === seat.key) add(st.next && st.next !== seat.key ? 'Weiter, ' + name(st.next) + ' ist dran' : 'Weiter', { t:'next' }, true);
 
-    if (st.phase === 'playing' && st.turn === seat.key && !st.gap) add('Ãœberspringen', { t:'skip' }, false);
+    if (st.phase === 'playing' && st.turn === seat.key && !st.gap) add('Überspringen', { t:'skip' }, false);
 
     return;
 
@@ -7833,9 +7834,9 @@ function drawSelfButtons(st, meP){
 
   const on = onlineSet(seat.room), keys = (st.order || []).filter(k => st.pl[k] && on.has(k)), n = keys.filter(k => st.pl[k].ready).length;
 
-  if (meP.ready) { box.append(txt('p', 'muted small nexthint', 'âœ“ Du bist bereit. ' + n + ' von ' + keys.length + ' sind bereit.')); return; }
+  if (meP.ready) { box.append(txt('p', 'muted small nexthint', '✓ Du bist bereit. ' + n + ' von ' + keys.length + ' sind bereit.')); return; }
 
-  // Richtig getippt, aber noch kein Feld befÃ¼llt: erst nachfragen. â€žFeld befÃ¼llenâ€œ scrollt zur Bingokarte.
+  // Richtig getippt, aber noch kein Feld befüllt: erst nachfragen. „Feld befüllen“ scrollt zur Bingokarte.
 
   const checkField = openField ? async act => {
 
@@ -7843,7 +7844,7 @@ function drawSelfButtons(st, meP){
 
     if (!live || live.canMark === null || live.canMark === undefined) return true;
 
-    if (await askNo('Du hast dein ' + COLORS[live.canMark].adj + ' Feld noch nicht befÃ¼llt. Gehst du trotzdem weiter, verfÃ¤llt es in dieser Runde.', 'Trotzdem weiter', 'Feld befÃ¼llen')) { act.skipMark = true; return true; }
+    if (await askNo('Du hast dein ' + COLORS[live.canMark].adj + ' Feld noch nicht befüllt. Gehst du trotzdem weiter, verfällt es in dieser Runde.', 'Trotzdem weiter', 'Feld befüllen')) { act.skipMark = true; return true; }
 
     const g = $('#pGridBox'); if (g) g.scrollIntoView({ behavior:'smooth', block:'start' });
 
@@ -7851,7 +7852,7 @@ function drawSelfButtons(st, meP){
 
   } : null;
 
-  add(st.round ? 'Weiter zur nÃ¤chsten Runde' : 'Bereit, los gehtâ€™s', { t:'ready' }, true, checkField);
+  add(st.round ? 'Weiter zur nächsten Runde' : 'Bereit, los geht’s', { t:'ready' }, true, checkField);
 
   box.append(txt('p', 'muted small nexthint', n + ' von ' + keys.length + ' sind bereit. Es geht weiter, sobald alle getippt haben.'));
 
@@ -7865,7 +7866,7 @@ function drawOthers(r, st){
 
   const timeline = (st.mode === 'turns' || st.mode === 'together') && st.pl && st.phase !== 'lobby';
 
-  box.append(txt('div', 'muted small', timeline ? 'Mitspieler, antippen fÃ¼r ihren Zeitstrahl' : 'Mitspieler'));
+  box.append(txt('div', 'muted small', timeline ? 'Mitspieler, antippen für ihren Zeitstrahl' : 'Mitspieler'));
 
   const ppl = el('div', 'people'); ppl.style.marginTop = '.4rem';
 
@@ -7915,7 +7916,7 @@ function playerTick(){
 
     if (f) f.style.width = (100 * Math.min(1, 1 - left / t.total)).toFixed(1) + '%';
 
-    if (s) s.textContent = 'NÃ¤chste Karte in ' + secs + ' s';
+    if (s) s.textContent = 'Nächste Karte in ' + secs + ' s';
 
     return;
 
@@ -7937,7 +7938,7 @@ function playerTick(){
 
 /* ---------- Bildschirm wach halten ---------- */
 
-// Wake Lock, wo der Browser es kann, dazu ein unsichtbares stummes Video als RÃ¼ckfallebene (Ã¤ltere iPhones)
+// Wake Lock, wo der Browser es kann, dazu ein unsichtbares stummes Video als Rückfallebene (ältere iPhones)
 
 const WAKE_VIDEO = 'data:video/mp4;base64,AAAAIGZ0eXBpc29tAAACAGlzb21pc28yYXZjMW1wNDEAAAMrbW9vdgAAAGxtdmhkAAAAAAAAAAAAAAAAAAAD6AAAB9AAAQAAAQAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAlV0cmFrAAAAXHRraGQAAAADAAAAAAAAAAAAAAABAAAAAAAAB9AAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAABAAAAAABAAAAAQAAAAAAAkZWR0cwAAABxlbHN0AAAAAAAAAAEAAAfQAAAAAAABAAAAAAHNbWRpYQAAACBtZGhkAAAAAAAAAAAAAAAAAABAAAAAgABVxAAAAAAALWhkbHIAAAAAAAAAAHZpZGUAAAAAAAAAAAAAAABWaWRlb0hhbmRsZXIAAAABeG1pbmYAAAAUdm1oZAAAAAEAAAAAAAAAAAAAACRkaW5mAAAAHGRyZWYAAAAAAAAAAQAAAAx1cmwgAAAAAQAAAThzdGJsAAAAuHN0c2QAAAAAAAAAAQAAAKhhdmMxAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAABAAEABIAAAASAAAAAAAAAABFUxhdmM2MC4zMS4xMDIgbGlieDI2NAAAAAAAAAAAAAAAGP//AAAALmF2Y0MBQsAK/+EAFmdCwArZHsBEAAADAAQAAAMACDxImSABAAVoy4PLIAAAABBwYXNwAAAAAQAAAAEAAAAUYnRydAAAAAAAAApAAAAKQAAAABhzdHRzAAAAAAAAAAEAAAACAABAAAAAABRzdHNzAAAAAAAAAAEAAAABAAAAHHN0c2MAAAAAAAAAAQAAAAEAAAACAAAAAQAAABxzdHN6AAAAAAAAAAAAAAACAAAChgAAAAoAAAAUc3RjbwAAAAAAAAABAAADWwAAAGJ1ZHRhAAAAWm1ldGEAAAAAAAAAIWhkbHIAAAAAAAAAAG1kaXJhcHBsAAAAAAAAAAAAAAAALWlsc3QAAAAlqXRvbwAAAB1kYXRhAAAAAQAAAABMYXZmNjAuMTYuMTAwAAAACGZyZWUAAAKYbWRhdAAAAnAGBf//bNxF6b3m2Ui3lizYINkj7u94MjY0IC0gY29yZSAxNjQgcjMxMDggMzFlMTlmOSAtIEguMjY0L01QRUctNCBBVkMgY29kZWMgLSBDb3B5bGVmdCAyMDAzLTIwMjMgLSBodHRwOi8vd3d3LnZpZGVvbGFuLm9yZy94MjY0Lmh0bWwgLSBvcHRpb25zOiBjYWJhYz0wIHJlZj0zIGRlYmxvY2s9MTowOjAgYW5hbHlzZT0weDE6MHgxMTEgbWU9aGV4IHN1Ym1lPTcgcHN5PTEgcHN5X3JkPTEuMDA6MC4wMCBtaXhlZF9yZWY9MSBtZV9yYW5nZT0xNiBjaHJvbWFfbWU9MSB0cmVsbGlzPTEgOHg4ZGN0PTAgY3FtPTAgZGVhZHpvbmU9MjEsMTEgZmFzdF9wc2tpcD0xIGNocm9tYV9xcF9vZmZzZXQ9LTIgdGhyZWFkcz0xIGxvb2thaGVhZF90aHJlYWRzPTEgc2xpY2VkX3RocmVhZHM9MCBucj0wIGRlY2ltYXRlPTEgaW50ZXJsYWNlZD0wIGJsdXJheV9jb21wYXQ9MCBjb25zdHJhaW5lZF9pbnRyYT0wIGJmcmFtZXM9MCB3ZWlnaHRwPTAga2V5aW50PTI1MCBrZXlpbnRfbWluPTEgc2NlbmVjdXQ9NDAgaW50cmFfcmVmcmVzaD0wIHJjX2xvb2thaGVhZD00MCByYz1jcmYgbWJ0cmVlPTEgY3JmPTIzLjAgcWNvbXA9MC42MCBxcG1pbj0wIHFwbWF4PTY5IHFwc3RlcD00IGlwX3JhdGlvPTEuNDAgYXE9MToxLjAwAIAAAAAOZYiEBb///w9FAAFPf4AAAAAGQZo4CvqA';
 
@@ -7981,7 +7982,7 @@ function videoAwake(){
 
 document.addEventListener('visibilitychange', () => { if (document.visibilityState === 'visible') { keepAwake(); watchBridge(); pollPhone(); } });
 
-// Manche Handys erlauben beides erst nach einer BerÃ¼hrung
+// Manche Handys erlauben beides erst nach einer Berührung
 
 document.addEventListener('pointerdown', () => { keepAwake(); videoAwake(); }, { passive:true });
 
@@ -7997,11 +7998,11 @@ function handleError(e, retry){
 
   if (e instanceof ApiError) {
 
-    if (e.reason === 'PREMIUM_REQUIRED') text = 'Spotify verlangt fÃ¼r die Wiedergabe ein Premium-Konto.';
+    if (e.reason === 'PREMIUM_REQUIRED') text = 'Spotify verlangt für die Wiedergabe ein Premium-Konto.';
 
-    else if (e.status === 404) text = 'Spotify findet das AbspielgerÃ¤t nicht. Ã–ffne dort Spotify, spiel kurz etwas an und versuch es nochmal.';
+    else if (e.status === 404) text = 'Spotify findet das Abspielgerät nicht. Öffne dort Spotify, spiel kurz etwas an und versuch es nochmal.';
 
-    else if (e.status === 403) text = 'Spotify lÃ¤sst diese Aktion nicht zu. PrÃ¼fe, ob dein Konto in der Spotify-App unter User Management eingetragen ist.';
+    else if (e.status === 403) text = 'Spotify lässt diese Aktion nicht zu. Prüfe, ob dein Konto in der Spotify-App unter User Management eingetragen ist.';
 
     else if (e.status === 429) text = 'Spotify bremst gerade zu viele Anfragen. Warte eine Minute und versuch es dann nochmal.';
 
@@ -8009,7 +8010,7 @@ function handleError(e, retry){
 
   } else if (e instanceof TypeError) {
 
-    text = 'Keine Verbindung zu Spotify. PrÃ¼fe das Internet und versuch es nochmal.';
+    text = 'Keine Verbindung zu Spotify. Prüfe das Internet und versuch es nochmal.';
 
   }
 
@@ -8049,7 +8050,7 @@ function renderHost(){
 
     stopBridge();
 
-    // Den Browser bitten, die gespeicherten Daten nicht von selbst zu lÃ¶schen
+    // Den Browser bitten, die gespeicherten Daten nicht von selbst zu löschen
 
     try { if (navigator.storage && navigator.storage.persist) navigator.storage.persist().catch(() => {}); } catch {}
 
@@ -8065,7 +8066,7 @@ async function startPlayer(code, saved){
 
   if (saved && saved.name && (!code || saved.code === code)) {
 
-    show('pplay'); $('#pWait').hidden = false; $('#pWait').textContent = 'Verbinde mit Raum ' + saved.code + ' â€¦';
+    show('pplay'); $('#pWait').hidden = false; $('#pWait').textContent = 'Verbinde mit Raum ' + saved.code + ' …';
 
     $('#pMini').hidden = true; $('#pCards').hidden = true;
 
@@ -8121,7 +8122,7 @@ function wire(){
 
   $('#cacheClear').onclick = async () => {
 
-    if (!(await ask('Alle gespeicherten Songs neu von Spotify einlesen? Das dauert bei groÃŸen Playlists etwas.', 'Neu einlesen'))) return;
+    if (!(await ask('Alle gespeicherten Songs neu von Spotify einlesen? Das dauert bei großen Playlists etwas.', 'Neu einlesen'))) return;
 
     try { Object.keys(localStorage).filter(k => k.startsWith('pq.pc.')).forEach(k => localStorage.removeItem(k)); } catch {}
 
